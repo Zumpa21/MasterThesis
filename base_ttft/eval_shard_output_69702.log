@@ -1,0 +1,1053 @@
+=== Shard 0/4, Attempt 1/8 ===
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+shard 0/4: 25 grouped tasks
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+==((====))==  Unsloth 2026.6.9: Fast Mistral patching. Transformers: 4.57.6. vLLM: 0.18.0.
+   \\   /|    NVIDIA L40. Num GPUs = 1. Max memory: 44.322 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.10.0+cu128. CUDA: 8.9. CUDA Toolkit: 12.8. Triton: 3.6.0
+\        /    Bfloat16 = TRUE. FA [Xformers = 0.0.35. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:06,  2.27s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:04<00:03,  1.97s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:05<00:01,  1.65s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.13s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.41s/it]
+/path/to/venv/lib/python3.11/site-packages/peft/tuners/tuners_utils.py:1348: UserWarning: Model has `tie_word_embeddings=True` and a tied layer is part of the adapter, but `ensure_weight_tying` is not set to True. This can lead to complications, for example when merging the adapter or converting your model to formats other than safetensors. Check the discussion here: https://github.com/huggingface/peft/issues/2777
+  warnings.warn(msg)
+Unsloth 2026.6.9 patched 40 layers with 40 QKV layers, 40 O layers and 40 MLP layers.
+inference:   0%|          | 0/25 [00:00<?, ?it/s]                                                 inference:   0%|          | 0/25 [02:57<?, ?it/s]                                                 inference:   0%|          | 0/25 [02:57<?, ?it/s]                                                 inference:   0%|          | 0/25 [02:57<?, ?it/s]                                                 inference:   0%|          | 0/25 [02:57<?, ?it/s]                                                 inference:   0%|          | 0/25 [02:57<?, ?it/s]                                                 inference:   0%|          | 0/25 [02:57<?, ?it/s]                                                 inference:   0%|          | 0/25 [02:57<?, ?it/s]                                                 inference:   0%|          | 0/25 [02:57<?, ?it/s]inference:   4%|▍         | 1/25 [02:57<1:10:58, 177.44s/it]                                                            inference:   4%|▍         | 1/25 [15:01<1:10:58, 177.44s/it]                                                            inference:   4%|▍         | 1/25 [15:01<1:10:58, 177.44s/it]                                                            inference:   4%|▍         | 1/25 [15:01<1:10:58, 177.44s/it]                                                            inference:   4%|▍         | 1/25 [15:01<1:10:58, 177.44s/it]                                                            inference:   4%|▍         | 1/25 [15:01<1:10:58, 177.44s/it]                                                            inference:   4%|▍         | 1/25 [15:01<1:10:58, 177.44s/it]                                                            inference:   4%|▍         | 1/25 [15:01<1:10:58, 177.44s/it]                                                            inference:   4%|▍         | 1/25 [15:01<1:10:58, 177.44s/it]inference:   8%|▊         | 2/25 [15:01<3:11:14, 498.89s/it]                                                            inference:   8%|▊         | 2/25 [35:38<3:11:14, 498.89s/it]                                                            inference:   8%|▊         | 2/25 [35:38<3:11:14, 498.89s/it]                                                            inference:   8%|▊         | 2/25 [35:38<3:11:14, 498.89s/it]                                                            inference:   8%|▊         | 2/25 [35:38<3:11:14, 498.89s/it]                                                            inference:   8%|▊         | 2/25 [35:38<3:11:14, 498.89s/it]                                                            inference:   8%|▊         | 2/25 [35:38<3:11:14, 498.89s/it]                                                            inference:   8%|▊         | 2/25 [35:38<3:11:14, 498.89s/it]                                                            inference:   8%|▊         | 2/25 [35:38<3:11:14, 498.89s/it]inference:  12%|█▏        | 3/25 [35:38<5:06:33, 836.08s/it]                                                            inference:  12%|█▏        | 3/25 [36:07<5:06:33, 836.08s/it]                                                            inference:  12%|█▏        | 3/25 [36:07<5:06:33, 836.08s/it]                                                            inference:  12%|█▏        | 3/25 [36:07<5:06:33, 836.08s/it]                                                            inference:  12%|█▏        | 3/25 [36:07<5:06:33, 836.08s/it]                                                            inference:  12%|█▏        | 3/25 [36:07<5:06:33, 836.08s/it]                                                            inference:  12%|█▏        | 3/25 [36:07<5:06:33, 836.08s/it]                                                            inference:  12%|█▏        | 3/25 [36:07<5:06:33, 836.08s/it]                                                            inference:  12%|█▏        | 3/25 [36:07<5:06:33, 836.08s/it]inference:  16%|█▌        | 4/25 [36:07<3:01:03, 517.33s/it]                                                            inference:  16%|█▌        | 4/25 [44:20<3:01:03, 517.33s/it]                                                            inference:  16%|█▌        | 4/25 [44:20<3:01:03, 517.33s/it]                                                            inference:  16%|█▌        | 4/25 [44:20<3:01:03, 517.33s/it]                                                            inference:  16%|█▌        | 4/25 [44:20<3:01:03, 517.33s/it]                                                            inference:  16%|█▌        | 4/25 [44:20<3:01:03, 517.33s/it]                                                            inference:  16%|█▌        | 4/25 [44:20<3:01:03, 517.33s/it]                                                            inference:  16%|█▌        | 4/25 [44:20<3:01:03, 517.33s/it]                                                            inference:  16%|█▌        | 4/25 [44:20<3:01:03, 517.33s/it]inference:  20%|██        | 5/25 [44:20<2:49:30, 508.53s/it]                                                            inference:  20%|██        | 5/25 [49:01<2:49:30, 508.53s/it]                                                            inference:  20%|██        | 5/25 [49:01<2:49:30, 508.53s/it]                                                            inference:  20%|██        | 5/25 [49:01<2:49:30, 508.53s/it]                                                            inference:  20%|██        | 5/25 [49:01<2:49:30, 508.53s/it]                                                            inference:  20%|██        | 5/25 [49:01<2:49:30, 508.53s/it]                                                            inference:  20%|██        | 5/25 [49:01<2:49:30, 508.53s/it]                                                            inference:  20%|██        | 5/25 [49:01<2:49:30, 508.53s/it]                                                            inference:  20%|██        | 5/25 [49:01<2:49:30, 508.53s/it]inference:  24%|██▍       | 6/25 [49:01<2:16:34, 431.31s/it]                                                            inference:  24%|██▍       | 6/25 [57:18<2:16:34, 431.31s/it]                                                            inference:  24%|██▍       | 6/25 [57:18<2:16:34, 431.31s/it]                                                            inference:  24%|██▍       | 6/25 [57:18<2:16:34, 431.31s/it]                                                            inference:  24%|██▍       | 6/25 [57:18<2:16:34, 431.31s/it]                                                            inference:  24%|██▍       | 6/25 [57:18<2:16:34, 431.31s/it]                                                            inference:  24%|██▍       | 6/25 [57:18<2:16:34, 431.31s/it]                                                            inference:  24%|██▍       | 6/25 [57:18<2:16:34, 431.31s/it]                                                            inference:  24%|██▍       | 6/25 [57:18<2:16:34, 431.31s/it]inference:  28%|██▊       | 7/25 [57:18<2:15:47, 452.64s/it]                                                            inference:  28%|██▊       | 7/25 [1:18:42<2:15:47, 452.64s/it]                                                              inference:  28%|██▊       | 7/25 [1:18:42<2:15:47, 452.64s/it]                                                              inference:  28%|██▊       | 7/25 [1:18:42<2:15:47, 452.64s/it]                                                              inference:  28%|██▊       | 7/25 [1:18:42<2:15:47, 452.64s/it]                                                              inference:  28%|██▊       | 7/25 [1:18:42<2:15:47, 452.64s/it]                                                              inference:  28%|██▊       | 7/25 [1:18:42<2:15:47, 452.64s/it]                                                              inference:  28%|██▊       | 7/25 [1:18:42<2:15:47, 452.64s/it]                                                              inference:  28%|██▊       | 7/25 [1:18:42<2:15:47, 452.64s/it]inference:  32%|███▏      | 8/25 [1:18:42<3:23:17, 717.50s/it]                                                              inference:  32%|███▏      | 8/25 [1:42:49<3:23:17, 717.50s/it]                                                              inference:  32%|███▏      | 8/25 [1:42:49<3:23:17, 717.50s/it]                                                              inference:  32%|███▏      | 8/25 [1:42:49<3:23:17, 717.50s/it]                                                              inference:  32%|███▏      | 8/25 [1:42:49<3:23:17, 717.50s/it]                                                              inference:  32%|███▏      | 8/25 [1:42:49<3:23:17, 717.50s/it]                                                              inference:  32%|███▏      | 8/25 [1:42:49<3:23:17, 717.50s/it]                                                              inference:  32%|███▏      | 8/25 [1:42:49<3:23:17, 717.50s/it]                                                              inference:  32%|███▏      | 8/25 [1:42:49<3:23:17, 717.50s/it]inference:  36%|███▌      | 9/25 [1:42:49<4:12:04, 945.29s/it]                                                              inference:  36%|███▌      | 9/25 [1:53:56<4:12:04, 945.29s/it]                                                              inference:  36%|███▌      | 9/25 [1:53:56<4:12:04, 945.29s/it]                                                              inference:  36%|███▌      | 9/25 [1:53:56<4:12:04, 945.29s/it]                                                              inference:  36%|███▌      | 9/25 [1:53:56<4:12:04, 945.29s/it]                                                              inference:  36%|███▌      | 9/25 [1:53:56<4:12:04, 945.29s/it]                                                              inference:  36%|███▌      | 9/25 [1:53:56<4:12:04, 945.29s/it]                                                              inference:  36%|███▌      | 9/25 [1:53:56<4:12:04, 945.29s/it]                                                              inference:  36%|███▌      | 9/25 [1:53:56<4:12:04, 945.29s/it]inference:  40%|████      | 10/25 [1:53:56<3:34:52, 859.49s/it]                                                               inference:  40%|████      | 10/25 [2:12:58<3:34:52, 859.49s/it]                                                               inference:  40%|████      | 10/25 [2:12:58<3:34:52, 859.49s/it]                                                               inference:  40%|████      | 10/25 [2:12:58<3:34:52, 859.49s/it]                                                               inference:  40%|████      | 10/25 [2:12:58<3:34:52, 859.49s/it]                                                               inference:  40%|████      | 10/25 [2:12:58<3:34:52, 859.49s/it]                                                               inference:  40%|████      | 10/25 [2:12:58<3:34:52, 859.49s/it]                                                               inference:  40%|████      | 10/25 [2:12:58<3:34:52, 859.49s/it]                                                               inference:  40%|████      | 10/25 [2:12:58<3:34:52, 859.49s/it]inference:  44%|████▍     | 11/25 [2:12:58<3:40:42, 945.89s/it]                                                               inference:  44%|████▍     | 11/25 [4:13:45<3:40:42, 945.89s/it] * task '00576224_0': 1 candidates, correct solution FOUND
+   max_gen_prob:  100.00% (  1.00/  1.00), corr_sol. @ 1 / 1
+   max_aug_prob:  100.00% (  1.00/  1.00), corr_sol. @ 1 / 1
+   min_aug_prob:  100.00% (  1.00/  1.00), corr_sol. @ 1 / 1
+   sum_aug_prob:  100.00% (  1.00/  1.00), corr_sol. @ 1 / 1
+   mul_aug_prob:  100.00% (  1.00/  1.00), corr_sol. @ 1 / 1
+   mul_all_prob:  100.00% (  1.00/  1.00), corr_sol. @ 1 / 1
+   correct_found: 100.00% (  1.00/  1.00)
+
+ * task '0becf7df_0': 12 candidates, correct solution FOUND
+   max_gen_prob:   50.00% (  1.00/  2.00), corr_sol. @ 9 / 12
+   max_aug_prob:  100.00% (  2.00/  2.00), corr_sol. @ 2 / 12
+   min_aug_prob:   50.00% (  1.00/  2.00), corr_sol. @ 3 / 12
+   sum_aug_prob:  100.00% (  2.00/  2.00), corr_sol. @ 2 / 12
+   mul_aug_prob:   50.00% (  1.00/  2.00), corr_sol. @ 3 / 12
+   mul_all_prob:   50.00% (  1.00/  2.00), corr_sol. @ 3 / 12
+   correct_found: 100.00% (  2.00/  2.00)
+
+ * task '15696249_0': 7 candidates, correct solution FOUND
+   max_gen_prob:   33.33% (  1.00/  3.00), corr_sol. @ 4 / 7
+   max_aug_prob:   66.67% (  2.00/  3.00), corr_sol. @ 4 / 7
+   min_aug_prob:   33.33% (  1.00/  3.00), corr_sol. @ 3 / 7
+   sum_aug_prob:   66.67% (  2.00/  3.00), corr_sol. @ 4 / 7
+   mul_aug_prob:   33.33% (  1.00/  3.00), corr_sol. @ 4 / 7
+   mul_all_prob:   33.33% (  1.00/  3.00), corr_sol. @ 5 / 7
+   correct_found: 100.00% (  3.00/  3.00)
+
+ * task '1a2e2828_0': 2 candidates, correct solution FOUND
+   max_gen_prob:   50.00% (  2.00/  4.00), corr_sol. @ 1 / 2
+   max_aug_prob:   75.00% (  3.00/  4.00), corr_sol. @ 1 / 2
+   min_aug_prob:   50.00% (  2.00/  4.00), corr_sol. @ 1 / 2
+   sum_aug_prob:   75.00% (  3.00/  4.00), corr_sol. @ 1 / 2
+   mul_aug_prob:   50.00% (  2.00/  4.00), corr_sol. @ 1 / 2
+   mul_all_prob:   50.00% (  2.00/  4.00), corr_sol. @ 1 / 2
+   correct_found: 100.00% (  4.00/  4.00)
+
+ * task '2685904e_0': 4 candidates, correct solution not found
+   max_gen_prob:   40.00% (  2.00/  5.00)
+   max_aug_prob:   60.00% (  3.00/  5.00)
+   min_aug_prob:   40.00% (  2.00/  5.00)
+   sum_aug_prob:   60.00% (  3.00/  5.00)
+   mul_aug_prob:   40.00% (  2.00/  5.00)
+   mul_all_prob:   40.00% (  2.00/  5.00)
+   correct_found:  80.00% (  4.00/  5.00)
+
+ * task '2f0c5170_0': 3 candidates, correct solution not found
+   max_gen_prob:   33.33% (  2.00/  6.00)
+   max_aug_prob:   50.00% (  3.00/  6.00)
+   min_aug_prob:   33.33% (  2.00/  6.00)
+   sum_aug_prob:   50.00% (  3.00/  6.00)
+   mul_aug_prob:   33.33% (  2.00/  6.00)
+   mul_all_prob:   33.33% (  2.00/  6.00)
+   correct_found:  66.67% (  4.00/  6.00)
+
+ * task '332efdb3_0': 1 candidates, correct solution FOUND
+   max_gen_prob:   42.86% (  3.00/  7.00), corr_sol. @ 1 / 1
+   max_aug_prob:   57.14% (  4.00/  7.00), corr_sol. @ 1 / 1
+   min_aug_prob:   42.86% (  3.00/  7.00), corr_sol. @ 1 / 1
+   sum_aug_prob:   57.14% (  4.00/  7.00), corr_sol. @ 1 / 1
+   mul_aug_prob:   42.86% (  3.00/  7.00), corr_sol. @ 1 / 1
+   mul_all_prob:   42.86% (  3.00/  7.00), corr_sol. @ 1 / 1
+   correct_found:  71.43% (  5.00/  7.00)
+
+ * task '3ed85e70_0': 0 candidates, correct solution not found
+   max_gen_prob:   37.50% (  3.00/  8.00)
+   max_aug_prob:   50.00% (  4.00/  8.00)
+   min_aug_prob:   37.50% (  3.00/  8.00)
+   sum_aug_prob:   50.00% (  4.00/  8.00)
+   mul_aug_prob:   37.50% (  3.00/  8.00)
+   mul_all_prob:   37.50% (  3.00/  8.00)
+   correct_found:  62.50% (  5.00/  8.00)
+
+ * task '42a15761_0': 8 candidates, correct solution not found
+   max_gen_prob:   33.33% (  3.00/  9.00)
+   max_aug_prob:   44.44% (  4.00/  9.00)
+   min_aug_prob:   33.33% (  3.00/  9.00)
+   sum_aug_prob:   44.44% (  4.00/  9.00)
+   mul_aug_prob:   33.33% (  3.00/  9.00)
+   mul_all_prob:   33.33% (  3.00/  9.00)
+   correct_found:  55.56% (  5.00/  9.00)
+
+ * task '48131b3c_0': 18 candidates, correct solution FOUND
+   max_gen_prob:   40.00% (  4.00/ 10.00), corr_sol. @ 1 / 18
+   max_aug_prob:   50.00% (  5.00/ 10.00), corr_sol. @ 1 / 18
+   min_aug_prob:   40.00% (  4.00/ 10.00), corr_sol. @ 2 / 18
+   sum_aug_prob:   50.00% (  5.00/ 10.00), corr_sol. @ 1 / 18
+   mul_aug_prob:   40.00% (  4.00/ 10.00), corr_sol. @ 1 / 18
+   mul_all_prob:   40.00% (  4.00/ 10.00), corr_sol. @ 1 / 18
+   correct_found:  60.00% (  6.00/ 10.00)
+
+ * task '5207a7b5_0': 12 candidates, correct solution not found
+   max_gen_prob:   36.36% (  4.00/ 11.00)
+   max_aug_prob:   45.45% (  5.00/ 11.00)
+   min_aug_prob:   36.36% (  4.00/ 11.00)
+   sum_aug_prob:   45.45% (  5.00/ 11.00)
+   mul_aug_prob:   36.36% (  4.00/ 11.00)
+   mul_all_prob:   36.36% (  4.00/ 11.00)
+   correct_found:  54.55% (  6.00/ 11.00)
+
+!!! task '5b526a93_0' FAILED (task exceeded 7200s timeout (worker still alive but hung)) -- skipping, respawning worker
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+==((====))==  Unsloth 2026.6.9: Fast Mistral patching. Transformers: 4.57.6. vLLM: 0.18.0.
+   \\   /|    NVIDIA L40. Num GPUs = 1. Max memory: 44.322 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.10.0+cu128. CUDA: 8.9. CUDA Toolkit: 12.8. Triton: 3.6.0
+\        /    Bfloat16 = TRUE. FA [Xformers = 0.0.35. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:37<01:51, 37.08s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:10<01:09, 34.79s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:38<00:31, 31.73s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:47<00:00, 22.89s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:47<00:00, 26.92s/it]
+/path/to/venv/lib/python3.11/site-packages/peft/tuners/tuners_utils.py:1348: UserWarning: Model has `tie_word_embeddings=True` and a tied layer is part of the adapter, but `ensure_weight_tying` is not set to True. This can lead to complications, for example when merging the adapter or converting your model to formats other than safetensors. Check the discussion here: https://github.com/huggingface/peft/issues/2777
+  warnings.warn(msg)
+Unsloth 2026.6.9 patched 40 layers with 40 QKV layers, 40 O layers and 40 MLP layers.
+inference:  48%|████▊     | 12/25 [4:17:25<10:34:46, 2929.71s/it]                                                                 inference:  48%|████▊     | 12/25 [4:53:10<10:34:46, 2929.71s/it]                                                                 inference:  48%|████▊     | 12/25 [4:53:10<10:34:46, 2929.71s/it]                                                                 inference:  48%|████▊     | 12/25 [4:53:10<10:34:46, 2929.71s/it]                                                                 inference:  48%|████▊     | 12/25 [4:53:10<10:34:46, 2929.71s/it]                                                                 inference:  48%|████▊     | 12/25 [4:53:10<10:34:46, 2929.71s/it]                                                                 inference:  48%|████▊     | 12/25 [4:53:10<10:34:46, 2929.71s/it]                                                                 inference:  48%|████▊     | 12/25 [4:53:10<10:34:46, 2929.71s/it]                                                                 inference:  48%|████▊     | 12/25 [4:53:10<10:34:46, 2929.71s/it]inference:  52%|█████▏    | 13/25 [4:53:10<8:58:25, 2692.08s/it]                                                                 inference:  52%|█████▏    | 13/25 [4:59:28<8:58:25, 2692.08s/it]                                                                inference:  52%|█████▏    | 13/25 [4:59:28<8:58:25, 2692.08s/it]                                                                inference:  52%|█████▏    | 13/25 [4:59:28<8:58:25, 2692.08s/it]                                                                inference:  52%|█████▏    | 13/25 [4:59:28<8:58:25, 2692.08s/it]                                                                inference:  52%|█████▏    | 13/25 [4:59:28<8:58:25, 2692.08s/it]                                                                inference:  52%|█████▏    | 13/25 [4:59:28<8:58:25, 2692.08s/it]                                                                inference:  52%|█████▏    | 13/25 [4:59:28<8:58:25, 2692.08s/it]                                                                inference:  52%|█████▏    | 13/25 [4:59:28<8:58:25, 2692.08s/it]inference:  56%|█████▌    | 14/25 [4:59:28<6:05:23, 1993.02s/it]                                                                inference:  56%|█████▌    | 14/25 [5:01:37<6:05:23, 1993.02s/it]                                                                inference:  56%|█████▌    | 14/25 [5:01:37<6:05:23, 1993.02s/it]                                                                inference:  56%|█████▌    | 14/25 [5:01:37<6:05:23, 1993.02s/it]                                                                inference:  56%|█████▌    | 14/25 [5:01:37<6:05:23, 1993.02s/it]                                                                inference:  56%|█████▌    | 14/25 [5:01:37<6:05:23, 1993.02s/it]                                                                inference:  56%|█████▌    | 14/25 [5:01:37<6:05:23, 1993.02s/it]                                                                inference:  56%|█████▌    | 14/25 [5:01:37<6:05:23, 1993.02s/it]                                                                inference:  56%|█████▌    | 14/25 [5:01:37<6:05:23, 1993.02s/it]inference:  60%|██████    | 15/25 [5:01:37<3:58:30, 1431.09s/it]                                                                inference:  60%|██████    | 15/25 [7:02:21<3:58:30, 1431.09s/it] * task '639f5a19_0': 2 candidates, correct solution not found
+   max_gen_prob:   33.33% (  4.00/ 12.00)
+   max_aug_prob:   41.67% (  5.00/ 12.00)
+   min_aug_prob:   33.33% (  4.00/ 12.00)
+   sum_aug_prob:   41.67% (  5.00/ 12.00)
+   mul_aug_prob:   33.33% (  4.00/ 12.00)
+   mul_all_prob:   33.33% (  4.00/ 12.00)
+   correct_found:  50.00% (  6.00/ 12.00)
+
+ * task '67636eac_0': 12 candidates, correct solution not found
+   max_gen_prob:   30.77% (  4.00/ 13.00)
+   max_aug_prob:   38.46% (  5.00/ 13.00)
+   min_aug_prob:   30.77% (  4.00/ 13.00)
+   sum_aug_prob:   38.46% (  5.00/ 13.00)
+   mul_aug_prob:   30.77% (  4.00/ 13.00)
+   mul_all_prob:   30.77% (  4.00/ 13.00)
+   correct_found:  46.15% (  6.00/ 13.00)
+
+ * task '8ba14f53_0': 6 candidates, correct solution not found
+   max_gen_prob:   28.57% (  4.00/ 14.00)
+   max_aug_prob:   35.71% (  5.00/ 14.00)
+   min_aug_prob:   28.57% (  4.00/ 14.00)
+   sum_aug_prob:   35.71% (  5.00/ 14.00)
+   mul_aug_prob:   28.57% (  4.00/ 14.00)
+   mul_all_prob:   28.57% (  4.00/ 14.00)
+   correct_found:  42.86% (  6.00/ 14.00)
+
+!!! task '92e50de0_0' FAILED (task exceeded 7200s timeout (worker still alive but hung)) -- skipping, respawning worker
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+==((====))==  Unsloth 2026.6.9: Fast Mistral patching. Transformers: 4.57.6. vLLM: 0.18.0.
+   \\   /|    NVIDIA L40. Num GPUs = 1. Max memory: 44.322 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.10.0+cu128. CUDA: 8.9. CUDA Toolkit: 12.8. Triton: 3.6.0
+\        /    Bfloat16 = TRUE. FA [Xformers = 0.0.35. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:18<00:56, 18.88s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:50<00:53, 26.52s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:16<00:26, 26.37s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:25<00:00, 19.51s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:25<00:00, 21.48s/it]
+/path/to/venv/lib/python3.11/site-packages/peft/tuners/tuners_utils.py:1348: UserWarning: Model has `tie_word_embeddings=True` and a tied layer is part of the adapter, but `ensure_weight_tying` is not set to True. This can lead to complications, for example when merging the adapter or converting your model to formats other than safetensors. Check the discussion here: https://github.com/huggingface/peft/issues/2777
+  warnings.warn(msg)
+Unsloth 2026.6.9 patched 40 layers with 40 QKV layers, 40 O layers and 40 MLP layers.
+inference:  64%|██████▍   | 16/25 [7:04:56<8:04:07, 3227.51s/it]                                                                inference:  64%|██████▍   | 16/25 [9:05:24<8:04:07, 3227.51s/it]!!! task 'af22c60d_0' FAILED (task exceeded 7200s timeout (worker still alive but hung)) -- skipping, respawning worker
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+==((====))==  Unsloth 2026.6.9: Fast Mistral patching. Transformers: 4.57.6. vLLM: 0.18.0.
+   \\   /|    NVIDIA L40. Num GPUs = 1. Max memory: 44.322 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.10.0+cu128. CUDA: 8.9. CUDA Toolkit: 12.8. Triton: 3.6.0
+\        /    Bfloat16 = TRUE. FA [Xformers = 0.0.35. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:17<00:52, 17.60s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:47<00:50, 25.05s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:13<00:25, 25.43s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:23<00:00, 19.14s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:23<00:00, 20.81s/it]
+/path/to/venv/lib/python3.11/site-packages/peft/tuners/tuners_utils.py:1348: UserWarning: Model has `tie_word_embeddings=True` and a tied layer is part of the adapter, but `ensure_weight_tying` is not set to True. This can lead to complications, for example when merging the adapter or converting your model to formats other than safetensors. Check the discussion here: https://github.com/huggingface/peft/issues/2777
+  warnings.warn(msg)
+Unsloth 2026.6.9 patched 40 layers with 40 QKV layers, 40 O layers and 40 MLP layers.
+inference:  68%|██████▊   | 17/25 [9:07:46<9:56:25, 4473.25s/it]                                                                inference:  68%|██████▊   | 17/25 [9:09:38<9:56:25, 4473.25s/it]                                                                inference:  68%|██████▊   | 17/25 [9:09:38<9:56:25, 4473.25s/it]                                                                inference:  68%|██████▊   | 17/25 [9:09:38<9:56:25, 4473.25s/it]                                                                inference:  68%|██████▊   | 17/25 [9:09:38<9:56:25, 4473.25s/it]                                                                inference:  68%|██████▊   | 17/25 [9:09:38<9:56:25, 4473.25s/it]                                                                inference:  68%|██████▊   | 17/25 [9:09:38<9:56:25, 4473.25s/it]                                                                inference:  68%|██████▊   | 17/25 [9:09:38<9:56:25, 4473.25s/it]                                                                inference:  68%|██████▊   | 17/25 [9:09:38<9:56:25, 4473.25s/it]inference:  72%|███████▏  | 18/25 [9:09:38<6:08:59, 3162.73s/it]                                                                inference:  72%|███████▏  | 18/25 [9:22:22<6:08:59, 3162.73s/it]                                                                inference:  72%|███████▏  | 18/25 [9:22:22<6:08:59, 3162.73s/it]                                                                inference:  72%|███████▏  | 18/25 [9:22:22<6:08:59, 3162.73s/it]                                                                inference:  72%|███████▏  | 18/25 [9:22:22<6:08:59, 3162.73s/it]                                                                inference:  72%|███████▏  | 18/25 [9:22:22<6:08:59, 3162.73s/it]                                                                inference:  72%|███████▏  | 18/25 [9:22:22<6:08:59, 3162.73s/it]                                                                inference:  72%|███████▏  | 18/25 [9:22:22<6:08:59, 3162.73s/it]                                                                inference:  72%|███████▏  | 18/25 [9:22:22<6:08:59, 3162.73s/it]inference:  76%|███████▌  | 19/25 [9:22:22<4:04:14, 2442.36s/it]                                                                inference:  76%|███████▌  | 19/25 [9:24:15<4:04:14, 2442.36s/it]                                                                inference:  76%|███████▌  | 19/25 [9:24:15<4:04:14, 2442.36s/it]                                                                inference:  76%|███████▌  | 19/25 [9:24:15<4:04:14, 2442.36s/it]                                                                inference:  76%|███████▌  | 19/25 [9:24:15<4:04:14, 2442.36s/it]                                                                inference:  76%|███████▌  | 19/25 [9:24:15<4:04:14, 2442.36s/it]                                                                inference:  76%|███████▌  | 19/25 [9:24:15<4:04:14, 2442.36s/it]                                                                inference:  76%|███████▌  | 19/25 [9:24:15<4:04:14, 2442.36s/it]                                                                inference:  76%|███████▌  | 19/25 [9:24:15<4:04:14, 2442.36s/it]inference:  80%|████████  | 20/25 [9:24:15<2:25:13, 1742.76s/it]                                                                inference:  80%|████████  | 20/25 [9:42:59<2:25:13, 1742.76s/it]                                                                inference:  80%|████████  | 20/25 [9:42:59<2:25:13, 1742.76s/it]                                                                inference:  80%|████████  | 20/25 [9:42:59<2:25:13, 1742.76s/it]                                                                inference:  80%|████████  | 20/25 [9:42:59<2:25:13, 1742.76s/it]                                                                inference:  80%|████████  | 20/25 [9:42:59<2:25:13, 1742.76s/it]                                                                inference:  80%|████████  | 20/25 [9:42:59<2:25:13, 1742.76s/it]                                                                inference:  80%|████████  | 20/25 [9:42:59<2:25:13, 1742.76s/it]                                                                inference:  80%|████████  | 20/25 [9:42:59<2:25:13, 1742.76s/it]inference:  84%|████████▍ | 21/25 [9:42:59<1:43:48, 1557.20s/it]                                                                inference:  84%|████████▍ | 21/25 [10:00:59<1:43:48, 1557.20s/it]                                                                 inference:  84%|████████▍ | 21/25 [10:00:59<1:43:48, 1557.20s/it]                                                                 inference:  84%|████████▍ | 21/25 [10:00:59<1:43:48, 1557.20s/it]                                                                 inference:  84%|████████▍ | 21/25 [10:00:59<1:43:48, 1557.20s/it]                                                                 inference:  84%|████████▍ | 21/25 [10:00:59<1:43:48, 1557.20s/it]                                                                 inference:  84%|████████▍ | 21/25 [10:00:59<1:43:48, 1557.20s/it]                                                                 inference:  84%|████████▍ | 21/25 [10:00:59<1:43:48, 1557.20s/it]                                                                 inference:  84%|████████▍ | 21/25 [10:00:59<1:43:48, 1557.20s/it]inference:  88%|████████▊ | 22/25 [10:00:59<1:10:41, 1413.95s/it]                                                                 inference:  88%|████████▊ | 22/25 [10:14:32<1:10:41, 1413.95s/it]                                                                 inference:  88%|████████▊ | 22/25 [10:14:32<1:10:41, 1413.95s/it]                                                                 inference:  88%|████████▊ | 22/25 [10:14:32<1:10:41, 1413.95s/it]                                                                 inference:  88%|████████▊ | 22/25 [10:14:32<1:10:41, 1413.95s/it]                                                                 inference:  88%|████████▊ | 22/25 [10:14:32<1:10:41, 1413.95s/it]                                                                 inference:  88%|████████▊ | 22/25 [10:14:32<1:10:41, 1413.95s/it]                                                                 inference:  88%|████████▊ | 22/25 [10:14:32<1:10:41, 1413.95s/it]                                                                 inference:  88%|████████▊ | 22/25 [10:14:32<1:10:41, 1413.95s/it]inference:  92%|█████████▏| 23/25 [10:14:32<41:07, 1233.59s/it]                                                                 inference:  92%|█████████▏| 23/25 [10:22:36<41:07, 1233.59s/it]                                                               inference:  92%|█████████▏| 23/25 [10:22:36<41:07, 1233.59s/it]                                                               inference:  92%|█████████▏| 23/25 [10:22:36<41:07, 1233.59s/it]                                                               inference:  92%|█████████▏| 23/25 [10:22:36<41:07, 1233.59s/it]                                                               inference:  92%|█████████▏| 23/25 [10:22:36<41:07, 1233.59s/it]                                                               inference:  92%|█████████▏| 23/25 [10:22:36<41:07, 1233.59s/it]                                                               inference:  92%|█████████▏| 23/25 [10:22:36<41:07, 1233.59s/it]                                                               inference:  92%|█████████▏| 23/25 [10:22:36<41:07, 1233.59s/it]inference:  96%|█████████▌| 24/25 [10:22:36<16:48, 1008.60s/it]                                                               inference:  96%|█████████▌| 24/25 [10:31:50<16:48, 1008.60s/it]                                                               inference:  96%|█████████▌| 24/25 [10:31:50<16:48, 1008.60s/it]                                                               inference:  96%|█████████▌| 24/25 [10:31:50<16:48, 1008.60s/it]                                                               inference:  96%|█████████▌| 24/25 [10:31:50<16:48, 1008.60s/it]                                                               inference:  96%|█████████▌| 24/25 [10:31:50<16:48, 1008.60s/it]                                                               inference:  96%|█████████▌| 24/25 [10:31:50<16:48, 1008.60s/it]                                                               inference:  96%|█████████▌| 24/25 [10:31:50<16:48, 1008.60s/it]                                                               inference:  96%|█████████▌| 24/25 [10:31:50<16:48, 1008.60s/it]inference: 100%|██████████| 25/25 [10:31:50<00:00, 872.28s/it] inference: 100%|██████████| 25/25 [10:31:50<00:00, 1516.42s/it]
+CHANGING MAX_SEQ_LENGTH 2048 -> 8192 (unsloth bug?)
+ * task 'b0722778_0': 0 candidates, correct solution not found
+   max_gen_prob:   26.67% (  4.00/ 15.00)
+   max_aug_prob:   33.33% (  5.00/ 15.00)
+   min_aug_prob:   26.67% (  4.00/ 15.00)
+   sum_aug_prob:   33.33% (  5.00/ 15.00)
+   mul_aug_prob:   26.67% (  4.00/ 15.00)
+   mul_all_prob:   26.67% (  4.00/ 15.00)
+   correct_found:  40.00% (  6.00/ 15.00)
+
+ * task 'b7fb29bc_0': 4 candidates, correct solution not found
+   max_gen_prob:   25.00% (  4.00/ 16.00)
+   max_aug_prob:   31.25% (  5.00/ 16.00)
+   min_aug_prob:   25.00% (  4.00/ 16.00)
+   sum_aug_prob:   31.25% (  5.00/ 16.00)
+   mul_aug_prob:   25.00% (  4.00/ 16.00)
+   mul_all_prob:   25.00% (  4.00/ 16.00)
+   correct_found:  37.50% (  6.00/ 16.00)
+
+ * task 'c3202e5a_0': 1 candidates, correct solution not found
+   max_gen_prob:   23.53% (  4.00/ 17.00)
+   max_aug_prob:   29.41% (  5.00/ 17.00)
+   min_aug_prob:   23.53% (  4.00/ 17.00)
+   sum_aug_prob:   29.41% (  5.00/ 17.00)
+   mul_aug_prob:   23.53% (  4.00/ 17.00)
+   mul_all_prob:   23.53% (  4.00/ 17.00)
+   correct_found:  35.29% (  6.00/ 17.00)
+
+ * task 'c6e1b8da_0': 0 candidates, correct solution not found
+   max_gen_prob:   22.22% (  4.00/ 18.00)
+   max_aug_prob:   27.78% (  5.00/ 18.00)
+   min_aug_prob:   22.22% (  4.00/ 18.00)
+   sum_aug_prob:   27.78% (  5.00/ 18.00)
+   mul_aug_prob:   22.22% (  4.00/ 18.00)
+   mul_all_prob:   22.22% (  4.00/ 18.00)
+   correct_found:  33.33% (  6.00/ 18.00)
+
+ * task 'd304284e_0': 0 candidates, correct solution not found
+   max_gen_prob:   21.05% (  4.00/ 19.00)
+   max_aug_prob:   26.32% (  5.00/ 19.00)
+   min_aug_prob:   21.05% (  4.00/ 19.00)
+   sum_aug_prob:   26.32% (  5.00/ 19.00)
+   mul_aug_prob:   21.05% (  4.00/ 19.00)
+   mul_all_prob:   21.05% (  4.00/ 19.00)
+   correct_found:  31.58% (  6.00/ 19.00)
+
+ * task 'e0fb7511_0': 2 candidates, correct solution not found
+   max_gen_prob:   20.00% (  4.00/ 20.00)
+   max_aug_prob:   25.00% (  5.00/ 20.00)
+   min_aug_prob:   20.00% (  4.00/ 20.00)
+   sum_aug_prob:   25.00% (  5.00/ 20.00)
+   mul_aug_prob:   20.00% (  4.00/ 20.00)
+   mul_all_prob:   20.00% (  4.00/ 20.00)
+   correct_found:  30.00% (  6.00/ 20.00)
+
+ * task 'ecaa0ec1_0': 1 candidates, correct solution not found
+   max_gen_prob:   19.05% (  4.00/ 21.00)
+   max_aug_prob:   23.81% (  5.00/ 21.00)
+   min_aug_prob:   19.05% (  4.00/ 21.00)
+   sum_aug_prob:   23.81% (  5.00/ 21.00)
+   mul_aug_prob:   19.05% (  4.00/ 21.00)
+   mul_all_prob:   19.05% (  4.00/ 21.00)
+   correct_found:  28.57% (  6.00/ 21.00)
+
+ * task 'ef26cbf6_0': 11 candidates, correct solution FOUND
+   max_gen_prob:   22.73% (  5.00/ 22.00), corr_sol. @ 1 / 11
+   max_aug_prob:   27.27% (  6.00/ 22.00), corr_sol. @ 1 / 11
+   min_aug_prob:   22.73% (  5.00/ 22.00), corr_sol. @ 2 / 11
+   sum_aug_prob:   27.27% (  6.00/ 22.00), corr_sol. @ 1 / 11
+   mul_aug_prob:   22.73% (  5.00/ 22.00), corr_sol. @ 1 / 11
+   mul_all_prob:   22.73% (  5.00/ 22.00), corr_sol. @ 1 / 11
+   correct_found:  31.82% (  7.00/ 22.00)
+
+3 task(s) failed and were skipped -- see output_evaluation_Nemo_shard0of4/failed_tasks.txt
+Score for 'output_evaluation_Nemo_shard0of4/submission.json': 5.0
+/usr/lib/python3.11/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 3 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+=== Shard 0 completed successfully ===
+=== Shard 1/4, Attempt 1/8 ===
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+shard 1/4: 25 grouped tasks
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+==((====))==  Unsloth 2026.6.9: Fast Mistral patching. Transformers: 4.57.6. vLLM: 0.18.0.
+   \\   /|    NVIDIA L40. Num GPUs = 1. Max memory: 44.322 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.10.0+cu128. CUDA: 8.9. CUDA Toolkit: 12.8. Triton: 3.6.0
+\        /    Bfloat16 = TRUE. FA [Xformers = 0.0.35. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.28s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.37s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.39s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.01it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.13s/it]
+/path/to/venv/lib/python3.11/site-packages/peft/tuners/tuners_utils.py:1348: UserWarning: Model has `tie_word_embeddings=True` and a tied layer is part of the adapter, but `ensure_weight_tying` is not set to True. This can lead to complications, for example when merging the adapter or converting your model to formats other than safetensors. Check the discussion here: https://github.com/huggingface/peft/issues/2777
+  warnings.warn(msg)
+Unsloth 2026.6.9 patched 40 layers with 40 QKV layers, 40 O layers and 40 MLP layers.
+inference:   0%|          | 0/25 [00:00<?, ?it/s]                                                 inference:   0%|          | 0/25 [45:40<?, ?it/s]                                                 inference:   0%|          | 0/25 [45:40<?, ?it/s]                                                 inference:   0%|          | 0/25 [45:40<?, ?it/s]                                                 inference:   0%|          | 0/25 [45:40<?, ?it/s]                                                 inference:   0%|          | 0/25 [45:40<?, ?it/s]                                                 inference:   0%|          | 0/25 [45:40<?, ?it/s]                                                 inference:   0%|          | 0/25 [45:40<?, ?it/s]                                                 inference:   0%|          | 0/25 [45:40<?, ?it/s]inference:   4%|▍         | 1/25 [45:40<18:16:23, 2740.99s/it]                                                              inference:   4%|▍         | 1/25 [50:49<18:16:23, 2740.99s/it]                                                              inference:   4%|▍         | 1/25 [50:49<18:16:23, 2740.99s/it]                                                              inference:   4%|▍         | 1/25 [50:49<18:16:23, 2740.99s/it]                                                              inference:   4%|▍         | 1/25 [50:49<18:16:23, 2740.99s/it]                                                              inference:   4%|▍         | 1/25 [50:49<18:16:23, 2740.99s/it]                                                              inference:   4%|▍         | 1/25 [50:49<18:16:23, 2740.99s/it]                                                              inference:   4%|▍         | 1/25 [50:49<18:16:23, 2740.99s/it]                                                              inference:   4%|▍         | 1/25 [50:49<18:16:23, 2740.99s/it]inference:   8%|▊         | 2/25 [50:49<8:22:15, 1310.23s/it]                                                              inference:   8%|▊         | 2/25 [1:17:05<8:22:15, 1310.23s/it]                                                               inference:   8%|▊         | 2/25 [1:17:05<8:22:15, 1310.23s/it]                                                               inference:   8%|▊         | 2/25 [1:17:05<8:22:15, 1310.23s/it]                                                               inference:   8%|▊         | 2/25 [1:17:05<8:22:15, 1310.23s/it]                                                               inference:   8%|▊         | 2/25 [1:17:05<8:22:15, 1310.23s/it]                                                               inference:   8%|▊         | 2/25 [1:17:05<8:22:15, 1310.23s/it]                                                               inference:   8%|▊         | 2/25 [1:17:05<8:22:15, 1310.23s/it]                                                               inference:   8%|▊         | 2/25 [1:17:05<8:22:15, 1310.23s/it]inference:  12%|█▏        | 3/25 [1:17:05<8:44:55, 1431.62s/it]                                                               inference:  12%|█▏        | 3/25 [1:20:49<8:44:55, 1431.62s/it]                                                               inference:  12%|█▏        | 3/25 [1:20:49<8:44:55, 1431.62s/it]                                                               inference:  12%|█▏        | 3/25 [1:20:49<8:44:55, 1431.62s/it]                                                               inference:  12%|█▏        | 3/25 [1:20:49<8:44:55, 1431.62s/it]                                                               inference:  12%|█▏        | 3/25 [1:20:49<8:44:55, 1431.62s/it]                                                               inference:  12%|█▏        | 3/25 [1:20:49<8:44:55, 1431.62s/it]                                                               inference:  12%|█▏        | 3/25 [1:20:49<8:44:55, 1431.62s/it]                                                               inference:  12%|█▏        | 3/25 [1:20:49<8:44:55, 1431.62s/it]inference:  16%|█▌        | 4/25 [1:20:49<5:34:09, 954.72s/it]                                                               inference:  16%|█▌        | 4/25 [1:39:18<5:34:09, 954.72s/it]                                                              inference:  16%|█▌        | 4/25 [1:39:18<5:34:09, 954.72s/it]                                                              inference:  16%|█▌        | 4/25 [1:39:18<5:34:09, 954.72s/it]                                                              inference:  16%|█▌        | 4/25 [1:39:18<5:34:09, 954.72s/it]                                                              inference:  16%|█▌        | 4/25 [1:39:18<5:34:09, 954.72s/it]                                                              inference:  16%|█▌        | 4/25 [1:39:18<5:34:09, 954.72s/it]                                                              inference:  16%|█▌        | 4/25 [1:39:18<5:34:09, 954.72s/it]                                                              inference:  16%|█▌        | 4/25 [1:39:18<5:34:09, 954.72s/it]inference:  20%|██        | 5/25 [1:39:18<5:36:46, 1010.32s/it]                                                               inference:  20%|██        | 5/25 [1:42:00<5:36:46, 1010.32s/it]                                                               inference:  20%|██        | 5/25 [1:42:00<5:36:46, 1010.32s/it]                                                               inference:  20%|██        | 5/25 [1:42:00<5:36:46, 1010.32s/it]                                                               inference:  20%|██        | 5/25 [1:42:00<5:36:46, 1010.32s/it]                                                               inference:  20%|██        | 5/25 [1:42:00<5:36:46, 1010.32s/it]                                                               inference:  20%|██        | 5/25 [1:42:00<5:36:46, 1010.32s/it]                                                               inference:  20%|██        | 5/25 [1:42:00<5:36:46, 1010.32s/it]                                                               inference:  20%|██        | 5/25 [1:42:00<5:36:46, 1010.32s/it]inference:  24%|██▍       | 6/25 [1:42:00<3:48:37, 722.00s/it]                                                               inference:  24%|██▍       | 6/25 [1:52:29<3:48:37, 722.00s/it]                                                              inference:  24%|██▍       | 6/25 [1:52:29<3:48:37, 722.00s/it]                                                              inference:  24%|██▍       | 6/25 [1:52:29<3:48:37, 722.00s/it]                                                              inference:  24%|██▍       | 6/25 [1:52:29<3:48:37, 722.00s/it]                                                              inference:  24%|██▍       | 6/25 [1:52:29<3:48:37, 722.00s/it]                                                              inference:  24%|██▍       | 6/25 [1:52:29<3:48:37, 722.00s/it]                                                              inference:  24%|██▍       | 6/25 [1:52:29<3:48:37, 722.00s/it]                                                              inference:  24%|██▍       | 6/25 [1:52:29<3:48:37, 722.00s/it]inference:  28%|██▊       | 7/25 [1:52:29<3:27:27, 691.51s/it]                                                              inference:  28%|██▊       | 7/25 [2:08:34<3:27:27, 691.51s/it]                                                              inference:  28%|██▊       | 7/25 [2:08:34<3:27:27, 691.51s/it]                                                              inference:  28%|██▊       | 7/25 [2:08:34<3:27:27, 691.51s/it]                                                              inference:  28%|██▊       | 7/25 [2:08:34<3:27:27, 691.51s/it]                                                              inference:  28%|██▊       | 7/25 [2:08:34<3:27:27, 691.51s/it]                                                              inference:  28%|██▊       | 7/25 [2:08:34<3:27:27, 691.51s/it]                                                              inference:  28%|██▊       | 7/25 [2:08:34<3:27:27, 691.51s/it]                                                              inference:  28%|██▊       | 7/25 [2:08:34<3:27:27, 691.51s/it]inference:  32%|███▏      | 8/25 [2:08:34<3:40:39, 778.77s/it]                                                              inference:  32%|███▏      | 8/25 [2:58:47<3:40:39, 778.77s/it]                                                              inference:  32%|███▏      | 8/25 [2:58:47<3:40:39, 778.77s/it]                                                              inference:  32%|███▏      | 8/25 [2:58:47<3:40:39, 778.77s/it]                                                              inference:  32%|███▏      | 8/25 [2:58:47<3:40:39, 778.77s/it]                                                              inference:  32%|███▏      | 8/25 [2:58:47<3:40:39, 778.77s/it]                                                              inference:  32%|███▏      | 8/25 [2:58:47<3:40:39, 778.77s/it]                                                              inference:  32%|███▏      | 8/25 [2:58:47<3:40:39, 778.77s/it]                                                              inference:  32%|███▏      | 8/25 [2:58:47<3:40:39, 778.77s/it]inference:  36%|███▌      | 9/25 [2:58:47<6:33:51, 1476.97s/it]                                                               inference:  36%|███▌      | 9/25 [3:15:40<6:33:51, 1476.97s/it]                                                               inference:  36%|███▌      | 9/25 [3:15:40<6:33:51, 1476.97s/it]                                                               inference:  36%|███▌      | 9/25 [3:15:40<6:33:51, 1476.97s/it]                                                               inference:  36%|███▌      | 9/25 [3:15:40<6:33:51, 1476.97s/it]                                                               inference:  36%|███▌      | 9/25 [3:15:40<6:33:51, 1476.97s/it]                                                               inference:  36%|███▌      | 9/25 [3:15:40<6:33:51, 1476.97s/it]                                                               inference:  36%|███▌      | 9/25 [3:15:40<6:33:51, 1476.97s/it]                                                               inference:  36%|███▌      | 9/25 [3:15:40<6:33:51, 1476.97s/it]inference:  40%|████      | 10/25 [3:15:40<5:33:27, 1333.84s/it]                                                                inference:  40%|████      | 10/25 [3:23:27<5:33:27, 1333.84s/it]                                                                inference:  40%|████      | 10/25 [3:23:27<5:33:27, 1333.84s/it]                                                                inference:  40%|████      | 10/25 [3:23:27<5:33:27, 1333.84s/it]                                                                inference:  40%|████      | 10/25 [3:23:27<5:33:27, 1333.84s/it]                                                                inference:  40%|████      | 10/25 [3:23:27<5:33:27, 1333.84s/it]                                                                inference:  40%|████      | 10/25 [3:23:27<5:33:27, 1333.84s/it]                                                                inference:  40%|████      | 10/25 [3:23:27<5:33:27, 1333.84s/it]                                                                inference:  40%|████      | 10/25 [3:23:27<5:33:27, 1333.84s/it]inference:  44%|████▍     | 11/25 [3:23:27<4:09:19, 1068.51s/it]                                                                inference:  44%|████▍     | 11/25 [3:34:32<4:09:19, 1068.51s/it]                                                                inference:  44%|████▍     | 11/25 [3:34:32<4:09:19, 1068.51s/it]                                                                inference:  44%|████▍     | 11/25 [3:34:32<4:09:19, 1068.51s/it]                                                                inference:  44%|████▍     | 11/25 [3:34:32<4:09:19, 1068.51s/it]                                                                inference:  44%|████▍     | 11/25 [3:34:32<4:09:19, 1068.51s/it]                                                                inference:  44%|████▍     | 11/25 [3:34:32<4:09:19, 1068.51s/it]                                                                inference:  44%|████▍     | 11/25 [3:34:32<4:09:19, 1068.51s/it]                                                                inference:  44%|████▍     | 11/25 [3:34:32<4:09:19, 1068.51s/it]inference:  48%|████▊     | 12/25 [3:34:32<3:24:56, 945.89s/it]                                                                inference:  48%|████▊     | 12/25 [3:45:43<3:24:56, 945.89s/it]                                                               inference:  48%|████▊     | 12/25 [3:45:43<3:24:56, 945.89s/it]                                                               inference:  48%|████▊     | 12/25 [3:45:43<3:24:56, 945.89s/it]                                                               inference:  48%|████▊     | 12/25 [3:45:43<3:24:56, 945.89s/it]                                                               inference:  48%|████▊     | 12/25 [3:45:43<3:24:56, 945.89s/it]                                                               inference:  48%|████▊     | 12/25 [3:45:43<3:24:56, 945.89s/it]                                                               inference:  48%|████▊     | 12/25 [3:45:43<3:24:56, 945.89s/it]                                                               inference:  48%|████▊     | 12/25 [3:45:43<3:24:56, 945.89s/it]                                                               inference:  48%|████▊     | 12/25 [3:56:15<3:24:56, 945.89s/it]                                                               inference:  48%|████▊     | 12/25 [3:56:15<3:24:56, 945.89s/it]                                                               inference:  48%|████▊     | 12/25 [3:56:15<3:24:56, 945.89s/it]                                                               inference:  48%|████▊     | 12/25 [3:56:15<3:24:56, 945.89s/it]                                                               inference:  48%|████▊     | 12/25 [3:56:15<3:24:56, 945.89s/it]                                                               inference:  48%|████▊     | 12/25 [3:56:15<3:24:56, 945.89s/it]                                                               inference:  48%|████▊     | 12/25 [3:56:15<3:24:56, 945.89s/it]                                                               inference:  48%|████▊     | 12/25 [3:56:15<3:24:56, 945.89s/it]inference:  52%|█████▏    | 13/25 [3:56:15<3:30:47, 1053.96s/it]                                                                inference:  52%|█████▏    | 13/25 [4:17:46<3:30:47, 1053.96s/it]                                                                inference:  52%|█████▏    | 13/25 [4:17:46<3:30:47, 1053.96s/it]                                                                inference:  52%|█████▏    | 13/25 [4:17:46<3:30:47, 1053.96s/it]                                                                inference:  52%|█████▏    | 13/25 [4:17:46<3:30:47, 1053.96s/it]                                                                inference:  52%|█████▏    | 13/25 [4:17:46<3:30:47, 1053.96s/it]                                                                inference:  52%|█████▏    | 13/25 [4:17:46<3:30:47, 1053.96s/it]                                                                inference:  52%|█████▏    | 13/25 [4:17:46<3:30:47, 1053.96s/it]                                                                inference:  52%|█████▏    | 13/25 [4:17:46<3:30:47, 1053.96s/it]inference:  56%|█████▌    | 14/25 [4:17:46<3:26:22, 1125.64s/it]                                                                inference:  56%|█████▌    | 14/25 [4:22:39<3:26:22, 1125.64s/it]                                                                inference:  56%|█████▌    | 14/25 [4:22:39<3:26:22, 1125.64s/it]                                                                inference:  56%|█████▌    | 14/25 [4:22:39<3:26:22, 1125.64s/it]                                                                inference:  56%|█████▌    | 14/25 [4:22:39<3:26:22, 1125.64s/it]                                                                inference:  56%|█████▌    | 14/25 [4:22:39<3:26:22, 1125.64s/it]                                                                inference:  56%|█████▌    | 14/25 [4:22:39<3:26:22, 1125.64s/it]                                                                inference:  56%|█████▌    | 14/25 [4:22:39<3:26:22, 1125.64s/it]                                                                inference:  56%|█████▌    | 14/25 [4:22:39<3:26:22, 1125.64s/it]inference:  60%|██████    | 15/25 [4:22:39<2:25:46, 874.68s/it]                                                                inference:  60%|██████    | 15/25 [4:54:21<2:25:46, 874.68s/it]                                                               inference:  60%|██████    | 15/25 [4:54:21<2:25:46, 874.68s/it]                                                               inference:  60%|██████    | 15/25 [4:54:21<2:25:46, 874.68s/it]                                                               inference:  60%|██████    | 15/25 [4:54:21<2:25:46, 874.68s/it]                                                               inference:  60%|██████    | 15/25 [4:54:21<2:25:46, 874.68s/it]                                                               inference:  60%|██████    | 15/25 [4:54:21<2:25:46, 874.68s/it]                                                               inference:  60%|██████    | 15/25 [4:54:21<2:25:46, 874.68s/it]                                                               inference:  60%|██████    | 15/25 [4:54:21<2:25:46, 874.68s/it]inference:  64%|██████▍   | 16/25 [4:54:21<2:57:35, 1183.92s/it]                                                                inference:  64%|██████▍   | 16/25 [5:06:04<2:57:35, 1183.92s/it]                                                                inference:  64%|██████▍   | 16/25 [5:06:04<2:57:35, 1183.92s/it]                                                                inference:  64%|██████▍   | 16/25 [5:06:04<2:57:35, 1183.92s/it]                                                                inference:  64%|██████▍   | 16/25 [5:06:04<2:57:35, 1183.92s/it]                                                                inference:  64%|██████▍   | 16/25 [5:06:04<2:57:35, 1183.92s/it]                                                                inference:  64%|██████▍   | 16/25 [5:06:04<2:57:35, 1183.92s/it]                                                                inference:  64%|██████▍   | 16/25 [5:06:04<2:57:35, 1183.92s/it]                                                                inference:  64%|██████▍   | 16/25 [5:06:04<2:57:35, 1183.92s/it]inference:  68%|██████▊   | 17/25 [5:06:04<2:18:33, 1039.20s/it]                                                                inference:  68%|██████▊   | 17/25 [5:34:53<2:18:33, 1039.20s/it]                                                                inference:  68%|██████▊   | 17/25 [5:34:53<2:18:33, 1039.20s/it]                                                                inference:  68%|██████▊   | 17/25 [5:34:53<2:18:33, 1039.20s/it]                                                                inference:  68%|██████▊   | 17/25 [5:34:53<2:18:33, 1039.20s/it]                                                                inference:  68%|██████▊   | 17/25 [5:34:53<2:18:33, 1039.20s/it]                                                                inference:  68%|██████▊   | 17/25 [5:34:53<2:18:33, 1039.20s/it]                                                                inference:  68%|██████▊   | 17/25 [5:34:53<2:18:33, 1039.20s/it]                                                                inference:  68%|██████▊   | 17/25 [5:34:53<2:18:33, 1039.20s/it]inference:  72%|███████▏  | 18/25 [5:34:53<2:25:24, 1246.35s/it]                                                                inference:  72%|███████▏  | 18/25 [5:42:48<2:25:24, 1246.35s/it]                                                                inference:  72%|███████▏  | 18/25 [5:42:48<2:25:24, 1246.35s/it]                                                                inference:  72%|███████▏  | 18/25 [5:42:48<2:25:24, 1246.35s/it]                                                                inference:  72%|███████▏  | 18/25 [5:42:48<2:25:24, 1246.35s/it]                                                                inference:  72%|███████▏  | 18/25 [5:42:48<2:25:24, 1246.35s/it]                                                                inference:  72%|███████▏  | 18/25 [5:42:48<2:25:24, 1246.35s/it]                                                                inference:  72%|███████▏  | 18/25 [5:42:48<2:25:24, 1246.35s/it]                                                                inference:  72%|███████▏  | 18/25 [5:42:48<2:25:24, 1246.35s/it]inference:  76%|███████▌  | 19/25 [5:42:48<1:41:28, 1014.81s/it]                                                                inference:  76%|███████▌  | 19/25 [5:54:12<1:41:28, 1014.81s/it]                                                                inference:  76%|███████▌  | 19/25 [5:54:12<1:41:28, 1014.81s/it]                                                                inference:  76%|███████▌  | 19/25 [5:54:12<1:41:28, 1014.81s/it]                                                                inference:  76%|███████▌  | 19/25 [5:54:12<1:41:28, 1014.81s/it]                                                                inference:  76%|███████▌  | 19/25 [5:54:12<1:41:28, 1014.81s/it]                                                                inference:  76%|███████▌  | 19/25 [5:54:12<1:41:28, 1014.81s/it]                                                                inference:  76%|███████▌  | 19/25 [5:54:12<1:41:28, 1014.81s/it]                                                                inference:  76%|███████▌  | 19/25 [5:54:12<1:41:28, 1014.81s/it]inference:  80%|████████  | 20/25 [5:54:12<1:16:17, 915.44s/it]                                                                inference:  80%|████████  | 20/25 [7:55:06<1:16:17, 915.44s/it] * task '0d87d2a6_0': 2 candidates, correct solution not found
+   max_gen_prob:    0.00% (  0.00/  1.00)
+   max_aug_prob:    0.00% (  0.00/  1.00)
+   min_aug_prob:    0.00% (  0.00/  1.00)
+   sum_aug_prob:    0.00% (  0.00/  1.00)
+   mul_aug_prob:    0.00% (  0.00/  1.00)
+   mul_all_prob:    0.00% (  0.00/  1.00)
+   correct_found:   0.00% (  0.00/  1.00)
+
+ * task '12eac192_0': 0 candidates, correct solution not found
+   max_gen_prob:    0.00% (  0.00/  2.00)
+   max_aug_prob:    0.00% (  0.00/  2.00)
+   min_aug_prob:    0.00% (  0.00/  2.00)
+   sum_aug_prob:    0.00% (  0.00/  2.00)
+   mul_aug_prob:    0.00% (  0.00/  2.00)
+   mul_all_prob:    0.00% (  0.00/  2.00)
+   correct_found:   0.00% (  0.00/  2.00)
+
+ * task '15113be4_0': 0 candidates, correct solution not found
+   max_gen_prob:    0.00% (  0.00/  3.00)
+   max_aug_prob:    0.00% (  0.00/  3.00)
+   min_aug_prob:    0.00% (  0.00/  3.00)
+   sum_aug_prob:    0.00% (  0.00/  3.00)
+   mul_aug_prob:    0.00% (  0.00/  3.00)
+   mul_all_prob:    0.00% (  0.00/  3.00)
+   correct_found:   0.00% (  0.00/  3.00)
+
+ * task '195ba7dc_0': 2 candidates, correct solution not found
+   max_gen_prob:    0.00% (  0.00/  4.00)
+   max_aug_prob:    0.00% (  0.00/  4.00)
+   min_aug_prob:    0.00% (  0.00/  4.00)
+   sum_aug_prob:    0.00% (  0.00/  4.00)
+   mul_aug_prob:    0.00% (  0.00/  4.00)
+   mul_all_prob:    0.00% (  0.00/  4.00)
+   correct_found:   0.00% (  0.00/  4.00)
+
+ * task '1c02dbbe_0': 0 candidates, correct solution not found
+   max_gen_prob:    0.00% (  0.00/  5.00)
+   max_aug_prob:    0.00% (  0.00/  5.00)
+   min_aug_prob:    0.00% (  0.00/  5.00)
+   sum_aug_prob:    0.00% (  0.00/  5.00)
+   mul_aug_prob:    0.00% (  0.00/  5.00)
+   mul_all_prob:    0.00% (  0.00/  5.00)
+   correct_found:   0.00% (  0.00/  5.00)
+
+ * task '20818e16_0': 0 candidates, correct solution not found
+   max_gen_prob:    0.00% (  0.00/  6.00)
+   max_aug_prob:    0.00% (  0.00/  6.00)
+   min_aug_prob:    0.00% (  0.00/  6.00)
+   sum_aug_prob:    0.00% (  0.00/  6.00)
+   mul_aug_prob:    0.00% (  0.00/  6.00)
+   mul_all_prob:    0.00% (  0.00/  6.00)
+   correct_found:   0.00% (  0.00/  6.00)
+
+ * task '20981f0e_0': 0 candidates, correct solution not found
+   max_gen_prob:    0.00% (  0.00/  7.00)
+   max_aug_prob:    0.00% (  0.00/  7.00)
+   min_aug_prob:    0.00% (  0.00/  7.00)
+   sum_aug_prob:    0.00% (  0.00/  7.00)
+   mul_aug_prob:    0.00% (  0.00/  7.00)
+   mul_all_prob:    0.00% (  0.00/  7.00)
+   correct_found:   0.00% (  0.00/  7.00)
+
+ * task '29700607_0': 27 candidates, correct solution FOUND
+   max_gen_prob:    0.00% (  0.00/  8.00), corr_sol. @ 9 / 27
+   max_aug_prob:    0.00% (  0.00/  8.00), corr_sol. @14 / 27
+   min_aug_prob:   12.50% (  1.00/  8.00), corr_sol. @ 1 / 27
+   sum_aug_prob:    0.00% (  0.00/  8.00), corr_sol. @14 / 27
+   mul_aug_prob:   12.50% (  1.00/  8.00), corr_sol. @ 2 / 27
+   mul_all_prob:   12.50% (  1.00/  8.00), corr_sol. @ 1 / 27
+   correct_found:  12.50% (  1.00/  8.00)
+
+ * task '319f2597_0': 11 candidates, correct solution FOUND
+   max_gen_prob:    0.00% (  0.00/  9.00), corr_sol. @10 / 11
+   max_aug_prob:   11.11% (  1.00/  9.00), corr_sol. @ 1 / 11
+   min_aug_prob:   11.11% (  1.00/  9.00), corr_sol. @ 6 / 11
+   sum_aug_prob:   11.11% (  1.00/  9.00), corr_sol. @ 1 / 11
+   mul_aug_prob:   11.11% (  1.00/  9.00), corr_sol. @ 5 / 11
+   mul_all_prob:   11.11% (  1.00/  9.00), corr_sol. @ 5 / 11
+   correct_found:  22.22% (  2.00/  9.00)
+
+ * task '33b52de3_0': 0 candidates, correct solution not found
+   max_gen_prob:    0.00% (  0.00/ 10.00)
+   max_aug_prob:   10.00% (  1.00/ 10.00)
+   min_aug_prob:   10.00% (  1.00/ 10.00)
+   sum_aug_prob:   10.00% (  1.00/ 10.00)
+   mul_aug_prob:   10.00% (  1.00/ 10.00)
+   mul_all_prob:   10.00% (  1.00/ 10.00)
+   correct_found:  20.00% (  2.00/ 10.00)
+
+ * task '3979b1a8_0': 4 candidates, correct solution FOUND
+   max_gen_prob:    9.09% (  1.00/ 11.00), corr_sol. @ 1 / 4
+   max_aug_prob:   18.18% (  2.00/ 11.00), corr_sol. @ 1 / 4
+   min_aug_prob:   18.18% (  2.00/ 11.00), corr_sol. @ 1 / 4
+   sum_aug_prob:   18.18% (  2.00/ 11.00), corr_sol. @ 1 / 4
+   mul_aug_prob:   18.18% (  2.00/ 11.00), corr_sol. @ 1 / 4
+   mul_all_prob:   18.18% (  2.00/ 11.00), corr_sol. @ 1 / 4
+   correct_found:  27.27% (  3.00/ 11.00)
+
+ * task '4b6b68e5_0': 0 candidates, correct solution not found
+   max_gen_prob:    8.33% (  1.00/ 12.00)
+   max_aug_prob:   16.67% (  2.00/ 12.00)
+   min_aug_prob:   16.67% (  2.00/ 12.00)
+   sum_aug_prob:   16.67% (  2.00/ 12.00)
+   mul_aug_prob:   16.67% (  2.00/ 12.00)
+   mul_all_prob:   16.67% (  2.00/ 12.00)
+   correct_found:  25.00% (  3.00/ 12.00)
+
+ * task '4c177718_0': 4 candidates, correct solution FOUND
+   max_gen_prob:   12.00% (  1.50/ 12.50), corr_sol. @ 1 / 4
+   max_aug_prob:   20.00% (  2.50/ 12.50), corr_sol. @ 2 / 4
+   min_aug_prob:   16.00% (  2.00/ 12.50), corr_sol. @ 3 / 4
+   sum_aug_prob:   20.00% (  2.50/ 12.50), corr_sol. @ 1 / 4
+   mul_aug_prob:   20.00% (  2.50/ 12.50), corr_sol. @ 2 / 4
+   mul_all_prob:   20.00% (  2.50/ 12.50), corr_sol. @ 2 / 4
+   correct_found:  28.00% (  3.50/ 12.50)
+
+ * task '4c177718_1': 6 candidates, correct solution not found
+   max_gen_prob:   11.54% (  1.50/ 13.00)
+   max_aug_prob:   19.23% (  2.50/ 13.00)
+   min_aug_prob:   15.38% (  2.00/ 13.00)
+   sum_aug_prob:   19.23% (  2.50/ 13.00)
+   mul_aug_prob:   19.23% (  2.50/ 13.00)
+   mul_all_prob:   19.23% (  2.50/ 13.00)
+   correct_found:  26.92% (  3.50/ 13.00)
+
+ * task '55783887_0': 8 candidates, correct solution not found
+   max_gen_prob:   10.71% (  1.50/ 14.00)
+   max_aug_prob:   17.86% (  2.50/ 14.00)
+   min_aug_prob:   14.29% (  2.00/ 14.00)
+   sum_aug_prob:   17.86% (  2.50/ 14.00)
+   mul_aug_prob:   17.86% (  2.50/ 14.00)
+   mul_all_prob:   17.86% (  2.50/ 14.00)
+   correct_found:  25.00% (  3.50/ 14.00)
+
+ * task '712bf12e_0': 0 candidates, correct solution not found
+   max_gen_prob:   10.00% (  1.50/ 15.00)
+   max_aug_prob:   16.67% (  2.50/ 15.00)
+   min_aug_prob:   13.33% (  2.00/ 15.00)
+   sum_aug_prob:   16.67% (  2.50/ 15.00)
+   mul_aug_prob:   16.67% (  2.50/ 15.00)
+   mul_all_prob:   16.67% (  2.50/ 15.00)
+   correct_found:  23.33% (  3.50/ 15.00)
+
+ * task '762cd429_0': 3 candidates, correct solution FOUND
+   max_gen_prob:   15.62% (  2.50/ 16.00), corr_sol. @ 1 / 3
+   max_aug_prob:   21.88% (  3.50/ 16.00), corr_sol. @ 1 / 3
+   min_aug_prob:   18.75% (  3.00/ 16.00), corr_sol. @ 1 / 3
+   sum_aug_prob:   21.88% (  3.50/ 16.00), corr_sol. @ 1 / 3
+   mul_aug_prob:   21.88% (  3.50/ 16.00), corr_sol. @ 1 / 3
+   mul_all_prob:   21.88% (  3.50/ 16.00), corr_sol. @ 1 / 3
+   correct_found:  28.12% (  4.50/ 16.00)
+
+ * task '9bebae7a_0': 8 candidates, correct solution FOUND
+   max_gen_prob:   14.71% (  2.50/ 17.00), corr_sol. @ 5 / 8
+   max_aug_prob:   26.47% (  4.50/ 17.00), corr_sol. @ 2 / 8
+   min_aug_prob:   17.65% (  3.00/ 17.00), corr_sol. @ 3 / 8
+   sum_aug_prob:   26.47% (  4.50/ 17.00), corr_sol. @ 2 / 8
+   mul_aug_prob:   20.59% (  3.50/ 17.00), corr_sol. @ 4 / 8
+   mul_all_prob:   20.59% (  3.50/ 17.00), corr_sol. @ 4 / 8
+   correct_found:  32.35% (  5.50/ 17.00)
+
+ * task 'a57f2f04_0': 3 candidates, correct solution not found
+   max_gen_prob:   13.89% (  2.50/ 18.00)
+   max_aug_prob:   25.00% (  4.50/ 18.00)
+   min_aug_prob:   16.67% (  3.00/ 18.00)
+   sum_aug_prob:   25.00% (  4.50/ 18.00)
+   mul_aug_prob:   19.44% (  3.50/ 18.00)
+   mul_all_prob:   19.44% (  3.50/ 18.00)
+   correct_found:  30.56% (  5.50/ 18.00)
+
+ * task 'aa18de87_0': 13 candidates, correct solution FOUND
+   max_gen_prob:   13.16% (  2.50/ 19.00), corr_sol. @ 3 / 13
+   max_aug_prob:   23.68% (  4.50/ 19.00), corr_sol. @ 4 / 13
+   min_aug_prob:   15.79% (  3.00/ 19.00), corr_sol. @ 7 / 13
+   sum_aug_prob:   23.68% (  4.50/ 19.00), corr_sol. @ 3 / 13
+   mul_aug_prob:   18.42% (  3.50/ 19.00), corr_sol. @ 3 / 13
+   mul_all_prob:   18.42% (  3.50/ 19.00), corr_sol. @ 3 / 13
+   correct_found:  34.21% (  6.50/ 19.00)
+
+ * task 'b4a43f3b_0': 0 candidates, correct solution not found
+   max_gen_prob:   12.50% (  2.50/ 20.00)
+   max_aug_prob:   22.50% (  4.50/ 20.00)
+   min_aug_prob:   15.00% (  3.00/ 20.00)
+   sum_aug_prob:   22.50% (  4.50/ 20.00)
+   mul_aug_prob:   17.50% (  3.50/ 20.00)
+   mul_all_prob:   17.50% (  3.50/ 20.00)
+   correct_found:  32.50% (  6.50/ 20.00)
+
+!!! task 'd931c21c_0' FAILED (task exceeded 7200s timeout (worker still alive but hung)) -- skipping, respawning worker
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+==((====))==  Unsloth 2026.6.9: Fast Mistral patching. Transformers: 4.57.6. vLLM: 0.18.0.
+   \\   /|    NVIDIA L40. Num GPUs = 1. Max memory: 44.322 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.10.0+cu128. CUDA: 8.9. CUDA Toolkit: 12.8. Triton: 3.6.0
+\        /    Bfloat16 = TRUE. FA [Xformers = 0.0.35. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:35<01:45, 35.08s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:07<01:07, 33.54s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:34<00:30, 30.35s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:42<00:00, 21.67s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:42<00:00, 25.61s/it]
+/path/to/venv/lib/python3.11/site-packages/peft/tuners/tuners_utils.py:1348: UserWarning: Model has `tie_word_embeddings=True` and a tied layer is part of the adapter, but `ensure_weight_tying` is not set to True. This can lead to complications, for example when merging the adapter or converting your model to formats other than safetensors. Check the discussion here: https://github.com/huggingface/peft/issues/2777
+  warnings.warn(msg)
+Unsloth 2026.6.9 patched 40 layers with 40 QKV layers, 40 O layers and 40 MLP layers.
+inference:  84%|████████▍ | 21/25 [7:58:38<3:12:07, 2881.77s/it]                                                                inference:  84%|████████▍ | 21/25 [8:01:03<3:12:07, 2881.77s/it]                                                                inference:  84%|████████▍ | 21/25 [8:01:03<3:12:07, 2881.77s/it]                                                                inference:  84%|████████▍ | 21/25 [8:01:03<3:12:07, 2881.77s/it]                                                                inference:  84%|████████▍ | 21/25 [8:01:03<3:12:07, 2881.77s/it]                                                                inference:  84%|████████▍ | 21/25 [8:01:03<3:12:07, 2881.77s/it]                                                                inference:  84%|████████▍ | 21/25 [8:01:03<3:12:07, 2881.77s/it]                                                                inference:  84%|████████▍ | 21/25 [8:01:03<3:12:07, 2881.77s/it]                                                                inference:  84%|████████▍ | 21/25 [8:01:03<3:12:07, 2881.77s/it]inference:  88%|████████▊ | 22/25 [8:01:03<1:43:01, 2060.41s/it]                                                                inference:  88%|████████▊ | 22/25 [8:21:07<1:43:01, 2060.41s/it]                                                                inference:  88%|████████▊ | 22/25 [8:21:07<1:43:01, 2060.41s/it]                                                                inference:  88%|████████▊ | 22/25 [8:21:07<1:43:01, 2060.41s/it]                                                                inference:  88%|████████▊ | 22/25 [8:21:07<1:43:01, 2060.41s/it]                                                                inference:  88%|████████▊ | 22/25 [8:21:07<1:43:01, 2060.41s/it]                                                                inference:  88%|████████▊ | 22/25 [8:21:07<1:43:01, 2060.41s/it]                                                                inference:  88%|████████▊ | 22/25 [8:21:07<1:43:01, 2060.41s/it]                                                                inference:  88%|████████▊ | 22/25 [8:21:07<1:43:01, 2060.41s/it]                                                                inference:  88%|████████▊ | 22/25 [8:39:13<1:43:01, 2060.41s/it]                                                                inference:  88%|████████▊ | 22/25 [8:39:13<1:43:01, 2060.41s/it]                                                                inference:  88%|████████▊ | 22/25 [8:39:13<1:43:01, 2060.41s/it]                                                                inference:  88%|████████▊ | 22/25 [8:39:13<1:43:01, 2060.41s/it]                                                                inference:  88%|████████▊ | 22/25 [8:39:13<1:43:01, 2060.41s/it]                                                                inference:  88%|████████▊ | 22/25 [8:39:13<1:43:01, 2060.41s/it]                                                                inference:  88%|████████▊ | 22/25 [8:39:13<1:43:01, 2060.41s/it]                                                                inference:  88%|████████▊ | 22/25 [8:39:13<1:43:01, 2060.41s/it]inference:  92%|█████████▏| 23/25 [8:39:13<1:10:58, 2129.27s/it]                                                                inference:  92%|█████████▏| 23/25 [8:48:38<1:10:58, 2129.27s/it]                                                                inference:  92%|█████████▏| 23/25 [8:48:38<1:10:58, 2129.27s/it]                                                                inference:  92%|█████████▏| 23/25 [8:48:38<1:10:58, 2129.27s/it]                                                                inference:  92%|█████████▏| 23/25 [8:48:38<1:10:58, 2129.27s/it]                                                                inference:  92%|█████████▏| 23/25 [8:48:38<1:10:58, 2129.27s/it]                                                                inference:  92%|█████████▏| 23/25 [8:48:38<1:10:58, 2129.27s/it]                                                                inference:  92%|█████████▏| 23/25 [8:48:38<1:10:58, 2129.27s/it]                                                                inference:  92%|█████████▏| 23/25 [8:48:38<1:10:58, 2129.27s/it]inference:  96%|█████████▌| 24/25 [8:48:38<27:40, 1660.02s/it]                                                                inference:  96%|█████████▌| 24/25 [10:49:17<27:40, 1660.02s/it] * task 'e66aafb8_0': 0 candidates, correct solution not found
+   max_gen_prob:   11.90% (  2.50/ 21.00)
+   max_aug_prob:   21.43% (  4.50/ 21.00)
+   min_aug_prob:   14.29% (  3.00/ 21.00)
+   sum_aug_prob:   21.43% (  4.50/ 21.00)
+   mul_aug_prob:   16.67% (  3.50/ 21.00)
+   mul_all_prob:   16.67% (  3.50/ 21.00)
+   correct_found:  30.95% (  6.50/ 21.00)
+
+ * task 'f3e62deb_0': 4 candidates, correct solution FOUND
+   max_gen_prob:   13.95% (  3.00/ 21.50), corr_sol. @ 2 / 4
+   max_aug_prob:   23.26% (  5.00/ 21.50), corr_sol. @ 1 / 4
+   min_aug_prob:   13.95% (  3.00/ 21.50), corr_sol. @ 3 / 4
+   sum_aug_prob:   23.26% (  5.00/ 21.50), corr_sol. @ 2 / 4
+   mul_aug_prob:   16.28% (  3.50/ 21.50), corr_sol. @ 3 / 4
+   mul_all_prob:   16.28% (  3.50/ 21.50), corr_sol. @ 3 / 4
+   correct_found:  32.56% (  7.00/ 21.50)
+
+ * task 'f3e62deb_1': 4 candidates, correct solution FOUND
+   max_gen_prob:   13.64% (  3.00/ 22.00), corr_sol. @ 4 / 4
+   max_aug_prob:   22.73% (  5.00/ 22.00), corr_sol. @ 4 / 4
+   min_aug_prob:   13.64% (  3.00/ 22.00), corr_sol. @ 3 / 4
+   sum_aug_prob:   22.73% (  5.00/ 22.00), corr_sol. @ 4 / 4
+   mul_aug_prob:   15.91% (  3.50/ 22.00), corr_sol. @ 4 / 4
+   mul_all_prob:   15.91% (  3.50/ 22.00), corr_sol. @ 4 / 4
+   correct_found:  34.09% (  7.50/ 22.00)
+
+ * task 'f83cb3f6_0': 4 candidates, correct solution not found
+   max_gen_prob:   13.04% (  3.00/ 23.00)
+   max_aug_prob:   21.74% (  5.00/ 23.00)
+   min_aug_prob:   13.04% (  3.00/ 23.00)
+   sum_aug_prob:   21.74% (  5.00/ 23.00)
+   mul_aug_prob:   15.22% (  3.50/ 23.00)
+   mul_all_prob:   15.22% (  3.50/ 23.00)
+   correct_found:  32.61% (  7.50/ 23.00)
+
+!!! task 'f9d67f8b_0' FAILED (task exceeded 7200s timeout (worker still alive but hung)) -- skipping, respawning worker
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+==((====))==  Unsloth 2026.6.9: Fast Mistral patching. Transformers: 4.57.6. vLLM: 0.18.0.
+   \\   /|    NVIDIA L40. Num GPUs = 1. Max memory: 44.322 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.10.0+cu128. CUDA: 8.9. CUDA Toolkit: 12.8. Triton: 3.6.0
+\        /    Bfloat16 = TRUE. FA [Xformers = 0.0.35. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:30<01:32, 30.72s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:01<01:01, 30.72s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:27<00:28, 28.65s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:36<00:00, 20.80s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:36<00:00, 24.10s/it]
+/path/to/venv/lib/python3.11/site-packages/peft/tuners/tuners_utils.py:1348: UserWarning: Model has `tie_word_embeddings=True` and a tied layer is part of the adapter, but `ensure_weight_tying` is not set to True. This can lead to complications, for example when merging the adapter or converting your model to formats other than safetensors. Check the discussion here: https://github.com/huggingface/peft/issues/2777
+  warnings.warn(msg)
+Unsloth 2026.6.9 patched 40 layers with 40 QKV layers, 40 O layers and 40 MLP layers.
+inference: 100%|██████████| 25/25 [10:52:35<00:00, 3393.13s/it]inference: 100%|██████████| 25/25 [10:52:35<00:00, 1566.20s/it]
+CHANGING MAX_SEQ_LENGTH 2048 -> 8192 (unsloth bug?)
+2 task(s) failed and were skipped -- see output_evaluation_Nemo_shard1of4/failed_tasks.txt
+Score for 'output_evaluation_Nemo_shard1of4/submission.json': 3.5
+/usr/lib/python3.11/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 2 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+=== Shard 1 completed successfully ===
+=== Shard 2/4, Attempt 1/8 ===
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+shard 2/4: 25 grouped tasks
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+==((====))==  Unsloth 2026.6.9: Fast Mistral patching. Transformers: 4.57.6. vLLM: 0.18.0.
+   \\   /|    NVIDIA L40. Num GPUs = 1. Max memory: 44.322 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.10.0+cu128. CUDA: 8.9. CUDA Toolkit: 12.8. Triton: 3.6.0
+\        /    Bfloat16 = TRUE. FA [Xformers = 0.0.35. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.51s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.61s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.65s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.17s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.33s/it]
+/path/to/venv/lib/python3.11/site-packages/peft/tuners/tuners_utils.py:1348: UserWarning: Model has `tie_word_embeddings=True` and a tied layer is part of the adapter, but `ensure_weight_tying` is not set to True. This can lead to complications, for example when merging the adapter or converting your model to formats other than safetensors. Check the discussion here: https://github.com/huggingface/peft/issues/2777
+  warnings.warn(msg)
+Unsloth 2026.6.9 patched 40 layers with 40 QKV layers, 40 O layers and 40 MLP layers.
+inference:   0%|          | 0/25 [00:00<?, ?it/s]                                                 inference:   0%|          | 0/25 [01:19<?, ?it/s]                                                 inference:   0%|          | 0/25 [01:19<?, ?it/s]                                                 inference:   0%|          | 0/25 [01:19<?, ?it/s]                                                 inference:   0%|          | 0/25 [01:19<?, ?it/s]                                                 inference:   0%|          | 0/25 [01:19<?, ?it/s]                                                 inference:   0%|          | 0/25 [01:19<?, ?it/s]                                                 inference:   0%|          | 0/25 [01:19<?, ?it/s]                                                 inference:   0%|          | 0/25 [01:19<?, ?it/s]inference:   4%|▍         | 1/25 [01:19<31:41, 79.25s/it]                                                         inference:   4%|▍         | 1/25 [19:18<31:41, 79.25s/it]                                                         inference:   4%|▍         | 1/25 [19:18<31:41, 79.25s/it]                                                         inference:   4%|▍         | 1/25 [19:18<31:41, 79.25s/it]                                                         inference:   4%|▍         | 1/25 [19:18<31:41, 79.25s/it]                                                         inference:   4%|▍         | 1/25 [19:18<31:41, 79.25s/it]                                                         inference:   4%|▍         | 1/25 [19:18<31:41, 79.25s/it]                                                         inference:   4%|▍         | 1/25 [19:18<31:41, 79.25s/it]                                                         inference:   4%|▍         | 1/25 [19:18<31:41, 79.25s/it]inference:   8%|▊         | 2/25 [19:18<4:15:45, 667.20s/it]                                                            inference:   8%|▊         | 2/25 [30:18<4:15:45, 667.20s/it]                                                            inference:   8%|▊         | 2/25 [30:18<4:15:45, 667.20s/it]                                                            inference:   8%|▊         | 2/25 [30:18<4:15:45, 667.20s/it]                                                            inference:   8%|▊         | 2/25 [30:18<4:15:45, 667.20s/it]                                                            inference:   8%|▊         | 2/25 [30:18<4:15:45, 667.20s/it]                                                            inference:   8%|▊         | 2/25 [30:18<4:15:45, 667.20s/it]                                                            inference:   8%|▊         | 2/25 [30:18<4:15:45, 667.20s/it]                                                            inference:   8%|▊         | 2/25 [30:18<4:15:45, 667.20s/it]inference:  12%|█▏        | 3/25 [30:18<4:03:29, 664.09s/it]                                                            inference:  12%|█▏        | 3/25 [37:29<4:03:29, 664.09s/it]                                                            inference:  12%|█▏        | 3/25 [37:29<4:03:29, 664.09s/it]                                                            inference:  12%|█▏        | 3/25 [37:29<4:03:29, 664.09s/it]                                                            inference:  12%|█▏        | 3/25 [37:29<4:03:29, 664.09s/it]                                                            inference:  12%|█▏        | 3/25 [37:29<4:03:29, 664.09s/it]                                                            inference:  12%|█▏        | 3/25 [37:29<4:03:29, 664.09s/it]                                                            inference:  12%|█▏        | 3/25 [37:29<4:03:29, 664.09s/it]                                                            inference:  12%|█▏        | 3/25 [37:29<4:03:29, 664.09s/it]inference:  16%|█▌        | 4/25 [37:29<3:20:18, 572.29s/it]                                                            inference:  16%|█▌        | 4/25 [39:49<3:20:18, 572.29s/it]                                                            inference:  16%|█▌        | 4/25 [39:49<3:20:18, 572.29s/it]                                                            inference:  16%|█▌        | 4/25 [39:49<3:20:18, 572.29s/it]                                                            inference:  16%|█▌        | 4/25 [39:49<3:20:18, 572.29s/it]                                                            inference:  16%|█▌        | 4/25 [39:49<3:20:18, 572.29s/it]                                                            inference:  16%|█▌        | 4/25 [39:49<3:20:18, 572.29s/it]                                                            inference:  16%|█▌        | 4/25 [39:49<3:20:18, 572.29s/it]                                                            inference:  16%|█▌        | 4/25 [39:49<3:20:18, 572.29s/it]inference:  20%|██        | 5/25 [39:49<2:18:45, 416.29s/it]                                                            inference:  20%|██        | 5/25 [59:54<2:18:45, 416.29s/it]                                                            inference:  20%|██        | 5/25 [59:54<2:18:45, 416.29s/it]                                                            inference:  20%|██        | 5/25 [59:54<2:18:45, 416.29s/it]                                                            inference:  20%|██        | 5/25 [59:54<2:18:45, 416.29s/it]                                                            inference:  20%|██        | 5/25 [59:54<2:18:45, 416.29s/it]                                                            inference:  20%|██        | 5/25 [59:54<2:18:45, 416.29s/it]                                                            inference:  20%|██        | 5/25 [59:54<2:18:45, 416.29s/it]                                                            inference:  20%|██        | 5/25 [59:54<2:18:45, 416.29s/it]inference:  24%|██▍       | 6/25 [59:54<3:36:46, 684.53s/it]                                                            inference:  24%|██▍       | 6/25 [1:14:13<3:36:46, 684.53s/it]                                                              inference:  24%|██▍       | 6/25 [1:14:13<3:36:46, 684.53s/it]                                                              inference:  24%|██▍       | 6/25 [1:14:13<3:36:46, 684.53s/it]                                                              inference:  24%|██▍       | 6/25 [1:14:13<3:36:46, 684.53s/it]                                                              inference:  24%|██▍       | 6/25 [1:14:13<3:36:46, 684.53s/it]                                                              inference:  24%|██▍       | 6/25 [1:14:13<3:36:46, 684.53s/it]                                                              inference:  24%|██▍       | 6/25 [1:14:13<3:36:46, 684.53s/it]                                                              inference:  24%|██▍       | 6/25 [1:14:13<3:36:46, 684.53s/it]inference:  28%|██▊       | 7/25 [1:14:13<3:42:23, 741.29s/it]                                                              inference:  28%|██▊       | 7/25 [1:22:52<3:42:23, 741.29s/it]                                                              inference:  28%|██▊       | 7/25 [1:22:52<3:42:23, 741.29s/it]                                                              inference:  28%|██▊       | 7/25 [1:22:52<3:42:23, 741.29s/it]                                                              inference:  28%|██▊       | 7/25 [1:22:52<3:42:23, 741.29s/it]                                                              inference:  28%|██▊       | 7/25 [1:22:52<3:42:23, 741.29s/it]                                                              inference:  28%|██▊       | 7/25 [1:22:52<3:42:23, 741.29s/it]                                                              inference:  28%|██▊       | 7/25 [1:22:52<3:42:23, 741.29s/it]                                                              inference:  28%|██▊       | 7/25 [1:22:52<3:42:23, 741.29s/it]inference:  32%|███▏      | 8/25 [1:22:52<3:10:02, 670.75s/it]                                                              inference:  32%|███▏      | 8/25 [1:35:29<3:10:02, 670.75s/it]                                                              inference:  32%|███▏      | 8/25 [1:35:29<3:10:02, 670.75s/it]                                                              inference:  32%|███▏      | 8/25 [1:35:29<3:10:02, 670.75s/it]                                                              inference:  32%|███▏      | 8/25 [1:35:29<3:10:02, 670.75s/it]                                                              inference:  32%|███▏      | 8/25 [1:35:29<3:10:02, 670.75s/it]                                                              inference:  32%|███▏      | 8/25 [1:35:29<3:10:02, 670.75s/it]                                                              inference:  32%|███▏      | 8/25 [1:35:29<3:10:02, 670.75s/it]                                                              inference:  32%|███▏      | 8/25 [1:35:29<3:10:02, 670.75s/it]inference:  36%|███▌      | 9/25 [1:35:29<3:06:02, 697.67s/it]                                                              inference:  36%|███▌      | 9/25 [1:59:51<3:06:02, 697.67s/it]                                                              inference:  36%|███▌      | 9/25 [1:59:51<3:06:02, 697.67s/it]                                                              inference:  36%|███▌      | 9/25 [1:59:51<3:06:02, 697.67s/it]                                                              inference:  36%|███▌      | 9/25 [1:59:51<3:06:02, 697.67s/it]                                                              inference:  36%|███▌      | 9/25 [1:59:51<3:06:02, 697.67s/it]                                                              inference:  36%|███▌      | 9/25 [1:59:51<3:06:02, 697.67s/it]                                                              inference:  36%|███▌      | 9/25 [1:59:51<3:06:02, 697.67s/it]                                                              inference:  36%|███▌      | 9/25 [1:59:51<3:06:02, 697.67s/it]inference:  40%|████      | 10/25 [1:59:51<3:53:22, 933.53s/it]                                                               inference:  40%|████      | 10/25 [2:03:28<3:53:22, 933.53s/it]                                                               inference:  40%|████      | 10/25 [2:03:28<3:53:22, 933.53s/it]                                                               inference:  40%|████      | 10/25 [2:03:28<3:53:22, 933.53s/it]                                                               inference:  40%|████      | 10/25 [2:03:28<3:53:22, 933.53s/it]                                                               inference:  40%|████      | 10/25 [2:03:28<3:53:22, 933.53s/it]                                                               inference:  40%|████      | 10/25 [2:03:28<3:53:22, 933.53s/it]                                                               inference:  40%|████      | 10/25 [2:03:28<3:53:22, 933.53s/it]                                                               inference:  40%|████      | 10/25 [2:03:28<3:53:22, 933.53s/it]inference:  44%|████▍     | 11/25 [2:03:28<2:46:41, 714.37s/it]                                                               inference:  44%|████▍     | 11/25 [2:10:51<2:46:41, 714.37s/it]                                                               inference:  44%|████▍     | 11/25 [2:10:51<2:46:41, 714.37s/it]                                                               inference:  44%|████▍     | 11/25 [2:10:51<2:46:41, 714.37s/it]                                                               inference:  44%|████▍     | 11/25 [2:10:51<2:46:41, 714.37s/it]                                                               inference:  44%|████▍     | 11/25 [2:10:51<2:46:41, 714.37s/it]                                                               inference:  44%|████▍     | 11/25 [2:10:51<2:46:41, 714.37s/it]                                                               inference:  44%|████▍     | 11/25 [2:10:51<2:46:41, 714.37s/it]                                                               inference:  44%|████▍     | 11/25 [2:10:51<2:46:41, 714.37s/it]inference:  48%|████▊     | 12/25 [2:10:51<2:16:50, 631.60s/it]                                                               inference:  48%|████▊     | 12/25 [2:36:00<2:16:50, 631.60s/it]                                                               inference:  48%|████▊     | 12/25 [2:36:00<2:16:50, 631.60s/it]                                                               inference:  48%|████▊     | 12/25 [2:36:00<2:16:50, 631.60s/it]                                                               inference:  48%|████▊     | 12/25 [2:36:00<2:16:50, 631.60s/it]                                                               inference:  48%|████▊     | 12/25 [2:36:00<2:16:50, 631.60s/it]                                                               inference:  48%|████▊     | 12/25 [2:36:00<2:16:50, 631.60s/it]                                                               inference:  48%|████▊     | 12/25 [2:36:00<2:16:50, 631.60s/it]                                                               inference:  48%|████▊     | 12/25 [2:36:00<2:16:50, 631.60s/it]inference:  52%|█████▏    | 13/25 [2:36:00<2:59:30, 897.55s/it]                                                               inference:  52%|█████▏    | 13/25 [3:00:25<2:59:30, 897.55s/it]                                                               inference:  52%|█████▏    | 13/25 [3:00:25<2:59:30, 897.55s/it]                                                               inference:  52%|█████▏    | 13/25 [3:00:25<2:59:30, 897.55s/it]                                                               inference:  52%|█████▏    | 13/25 [3:00:25<2:59:30, 897.55s/it]                                                               inference:  52%|█████▏    | 13/25 [3:00:25<2:59:30, 897.55s/it]                                                               inference:  52%|█████▏    | 13/25 [3:00:25<2:59:30, 897.55s/it]                                                               inference:  52%|█████▏    | 13/25 [3:00:25<2:59:30, 897.55s/it]                                                               inference:  52%|█████▏    | 13/25 [3:00:25<2:59:30, 897.55s/it]inference:  56%|█████▌    | 14/25 [3:00:25<3:15:57, 1068.85s/it]                                                                inference:  56%|█████▌    | 14/25 [5:00:40<3:15:57, 1068.85s/it] * task '0934a4d8_0': 0 candidates, correct solution not found
+   max_gen_prob:    0.00% (  0.00/  1.00)
+   max_aug_prob:    0.00% (  0.00/  1.00)
+   min_aug_prob:    0.00% (  0.00/  1.00)
+   sum_aug_prob:    0.00% (  0.00/  1.00)
+   mul_aug_prob:    0.00% (  0.00/  1.00)
+   mul_all_prob:    0.00% (  0.00/  1.00)
+   correct_found:   0.00% (  0.00/  1.00)
+
+ * task '11e1fe23_0': 9 candidates, correct solution not found
+   max_gen_prob:    0.00% (  0.00/  2.00)
+   max_aug_prob:    0.00% (  0.00/  2.00)
+   min_aug_prob:    0.00% (  0.00/  2.00)
+   sum_aug_prob:    0.00% (  0.00/  2.00)
+   mul_aug_prob:    0.00% (  0.00/  2.00)
+   mul_all_prob:    0.00% (  0.00/  2.00)
+   correct_found:   0.00% (  0.00/  2.00)
+
+ * task '14754a24_0': 0 candidates, correct solution not found
+   max_gen_prob:    0.00% (  0.00/  3.00)
+   max_aug_prob:    0.00% (  0.00/  3.00)
+   min_aug_prob:    0.00% (  0.00/  3.00)
+   sum_aug_prob:    0.00% (  0.00/  3.00)
+   mul_aug_prob:    0.00% (  0.00/  3.00)
+   mul_all_prob:    0.00% (  0.00/  3.00)
+   correct_found:   0.00% (  0.00/  3.00)
+
+ * task '212895b5_0': 0 candidates, correct solution not found
+   max_gen_prob:    0.00% (  0.00/  4.00)
+   max_aug_prob:    0.00% (  0.00/  4.00)
+   min_aug_prob:    0.00% (  0.00/  4.00)
+   sum_aug_prob:    0.00% (  0.00/  4.00)
+   mul_aug_prob:    0.00% (  0.00/  4.00)
+   mul_all_prob:    0.00% (  0.00/  4.00)
+   correct_found:   0.00% (  0.00/  4.00)
+
+ * task '3194b014_0': 4 candidates, correct solution FOUND
+   max_gen_prob:   20.00% (  1.00/  5.00), corr_sol. @ 1 / 4
+   max_aug_prob:   20.00% (  1.00/  5.00), corr_sol. @ 1 / 4
+   min_aug_prob:   20.00% (  1.00/  5.00), corr_sol. @ 1 / 4
+   sum_aug_prob:   20.00% (  1.00/  5.00), corr_sol. @ 1 / 4
+   mul_aug_prob:   20.00% (  1.00/  5.00), corr_sol. @ 1 / 4
+   mul_all_prob:   20.00% (  1.00/  5.00), corr_sol. @ 1 / 4
+   correct_found:  20.00% (  1.00/  5.00)
+
+ * task '4e45f183_0': 2 candidates, correct solution not found
+   max_gen_prob:   16.67% (  1.00/  6.00)
+   max_aug_prob:   16.67% (  1.00/  6.00)
+   min_aug_prob:   16.67% (  1.00/  6.00)
+   sum_aug_prob:   16.67% (  1.00/  6.00)
+   mul_aug_prob:   16.67% (  1.00/  6.00)
+   mul_all_prob:   16.67% (  1.00/  6.00)
+   correct_found:  16.67% (  1.00/  6.00)
+
+ * task '50f325b5_0': 1 candidates, correct solution not found
+   max_gen_prob:   14.29% (  1.00/  7.00)
+   max_aug_prob:   14.29% (  1.00/  7.00)
+   min_aug_prob:   14.29% (  1.00/  7.00)
+   sum_aug_prob:   14.29% (  1.00/  7.00)
+   mul_aug_prob:   14.29% (  1.00/  7.00)
+   mul_all_prob:   14.29% (  1.00/  7.00)
+   correct_found:  14.29% (  1.00/  7.00)
+
+ * task '5af49b42_0': 0 candidates, correct solution not found
+   max_gen_prob:   12.50% (  1.00/  8.00)
+   max_aug_prob:   12.50% (  1.00/  8.00)
+   min_aug_prob:   12.50% (  1.00/  8.00)
+   sum_aug_prob:   12.50% (  1.00/  8.00)
+   mul_aug_prob:   12.50% (  1.00/  8.00)
+   mul_all_prob:   12.50% (  1.00/  8.00)
+   correct_found:  12.50% (  1.00/  8.00)
+
+ * task '60c09cac_0': 21 candidates, correct solution not found
+   max_gen_prob:   11.11% (  1.00/  9.00)
+   max_aug_prob:   11.11% (  1.00/  9.00)
+   min_aug_prob:   11.11% (  1.00/  9.00)
+   sum_aug_prob:   11.11% (  1.00/  9.00)
+   mul_aug_prob:   11.11% (  1.00/  9.00)
+   mul_all_prob:   11.11% (  1.00/  9.00)
+   correct_found:  11.11% (  1.00/  9.00)
+
+ * task '705a3229_0': 11 candidates, correct solution FOUND
+   max_gen_prob:   20.00% (  2.00/ 10.00), corr_sol. @ 1 / 11
+   max_aug_prob:   20.00% (  2.00/ 10.00), corr_sol. @ 1 / 11
+   min_aug_prob:   20.00% (  2.00/ 10.00), corr_sol. @ 1 / 11
+   sum_aug_prob:   20.00% (  2.00/ 10.00), corr_sol. @ 1 / 11
+   mul_aug_prob:   20.00% (  2.00/ 10.00), corr_sol. @ 1 / 11
+   mul_all_prob:   20.00% (  2.00/ 10.00), corr_sol. @ 1 / 11
+   correct_found:  20.00% (  2.00/ 10.00)
+
+ * task '73182012_0': 20 candidates, correct solution FOUND
+   max_gen_prob:   27.27% (  3.00/ 11.00), corr_sol. @ 1 / 20
+   max_aug_prob:   27.27% (  3.00/ 11.00), corr_sol. @ 2 / 20
+   min_aug_prob:   27.27% (  3.00/ 11.00), corr_sol. @ 1 / 20
+   sum_aug_prob:   27.27% (  3.00/ 11.00), corr_sol. @ 1 / 20
+   mul_aug_prob:   27.27% (  3.00/ 11.00), corr_sol. @ 1 / 20
+   mul_all_prob:   27.27% (  3.00/ 11.00), corr_sol. @ 1 / 20
+   correct_found:  27.27% (  3.00/ 11.00)
+
+ * task '770cc55f_0': 6 candidates, correct solution FOUND
+   max_gen_prob:   33.33% (  4.00/ 12.00), corr_sol. @ 1 / 6
+   max_aug_prob:   33.33% (  4.00/ 12.00), corr_sol. @ 1 / 6
+   min_aug_prob:   33.33% (  4.00/ 12.00), corr_sol. @ 1 / 6
+   sum_aug_prob:   33.33% (  4.00/ 12.00), corr_sol. @ 1 / 6
+   mul_aug_prob:   33.33% (  4.00/ 12.00), corr_sol. @ 1 / 6
+   mul_all_prob:   33.33% (  4.00/ 12.00), corr_sol. @ 1 / 6
+   correct_found:  33.33% (  4.00/ 12.00)
+
+ * task '8cb8642d_0': 0 candidates, correct solution not found
+   max_gen_prob:   30.77% (  4.00/ 13.00)
+   max_aug_prob:   30.77% (  4.00/ 13.00)
+   min_aug_prob:   30.77% (  4.00/ 13.00)
+   sum_aug_prob:   30.77% (  4.00/ 13.00)
+   mul_aug_prob:   30.77% (  4.00/ 13.00)
+   mul_all_prob:   30.77% (  4.00/ 13.00)
+   correct_found:  30.77% (  4.00/ 13.00)
+
+ * task '93c31fbe_0': 1 candidates, correct solution not found
+   max_gen_prob:   28.57% (  4.00/ 14.00)
+   max_aug_prob:   28.57% (  4.00/ 14.00)
+   min_aug_prob:   28.57% (  4.00/ 14.00)
+   sum_aug_prob:   28.57% (  4.00/ 14.00)
+   mul_aug_prob:   28.57% (  4.00/ 14.00)
+   mul_all_prob:   28.57% (  4.00/ 14.00)
+   correct_found:  28.57% (  4.00/ 14.00)
+
+!!! task '95a58926_0' FAILED (task exceeded 7200s timeout (worker still alive but hung)) -- skipping, respawning worker
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+==((====))==  Unsloth 2026.6.9: Fast Mistral patching. Transformers: 4.57.6. vLLM: 0.18.0.
+   \\   /|    NVIDIA L40. Num GPUs = 1. Max memory: 44.322 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.10.0+cu128. CUDA: 8.9. CUDA Toolkit: 12.8. Triton: 3.6.0
+\        /    Bfloat16 = TRUE. FA [Xformers = 0.0.35. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:36<01:50, 36.80s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:08<01:07, 33.87s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:37<00:31, 31.41s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:46<00:00, 22.91s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:46<00:00, 26.75s/it]
+/path/to/venv/lib/python3.11/site-packages/peft/tuners/tuners_utils.py:1348: UserWarning: Model has `tie_word_embeddings=True` and a tied layer is part of the adapter, but `ensure_weight_tying` is not set to True. This can lead to complications, for example when merging the adapter or converting your model to formats other than safetensors. Check the discussion here: https://github.com/huggingface/peft/issues/2777
+  warnings.warn(msg)
+Unsloth 2026.6.9 patched 40 layers with 40 QKV layers, 40 O layers and 40 MLP layers.
+inference:  60%|██████    | 15/25 [5:04:06<8:17:17, 2983.71s/it]                                                                inference:  60%|██████    | 15/25 [5:36:34<8:17:17, 2983.71s/it]                                                                inference:  60%|██████    | 15/25 [5:36:34<8:17:17, 2983.71s/it]                                                                inference:  60%|██████    | 15/25 [5:36:34<8:17:17, 2983.71s/it]                                                                inference:  60%|██████    | 15/25 [5:36:34<8:17:17, 2983.71s/it]                                                                inference:  60%|██████    | 15/25 [5:36:34<8:17:17, 2983.71s/it]                                                                inference:  60%|██████    | 15/25 [5:36:34<8:17:17, 2983.71s/it]                                                                inference:  60%|██████    | 15/25 [5:36:34<8:17:17, 2983.71s/it]                                                                inference:  60%|██████    | 15/25 [5:36:34<8:17:17, 2983.71s/it]inference:  64%|██████▍   | 16/25 [5:36:34<6:40:46, 2671.86s/it]                                                                inference:  64%|██████▍   | 16/25 [7:37:44<6:40:46, 2671.86s/it] * task '992798f6_0': 14 candidates, correct solution not found
+   max_gen_prob:   26.67% (  4.00/ 15.00)
+   max_aug_prob:   26.67% (  4.00/ 15.00)
+   min_aug_prob:   26.67% (  4.00/ 15.00)
+   sum_aug_prob:   26.67% (  4.00/ 15.00)
+   mul_aug_prob:   26.67% (  4.00/ 15.00)
+   mul_all_prob:   26.67% (  4.00/ 15.00)
+   correct_found:  26.67% (  4.00/ 15.00)
+
+!!! task 'a3f84088_0' FAILED (task exceeded 7200s timeout (worker still alive but hung)) -- skipping, respawning worker
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+==((====))==  Unsloth 2026.6.9: Fast Mistral patching. Transformers: 4.57.6. vLLM: 0.18.0.
+   \\   /|    NVIDIA L40. Num GPUs = 1. Max memory: 44.322 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.10.0+cu128. CUDA: 8.9. CUDA Toolkit: 12.8. Triton: 3.6.0
+\        /    Bfloat16 = TRUE. FA [Xformers = 0.0.35. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:32<01:38, 32.83s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:06<01:06, 33.42s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:34<00:30, 30.67s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:43<00:00, 22.18s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:43<00:00, 25.81s/it]
+/path/to/venv/lib/python3.11/site-packages/peft/tuners/tuners_utils.py:1348: UserWarning: Model has `tie_word_embeddings=True` and a tied layer is part of the adapter, but `ensure_weight_tying` is not set to True. This can lead to complications, for example when merging the adapter or converting your model to formats other than safetensors. Check the discussion here: https://github.com/huggingface/peft/issues/2777
+  warnings.warn(msg)
+Unsloth 2026.6.9 patched 40 layers with 40 QKV layers, 40 O layers and 40 MLP layers.
+inference:  68%|██████▊   | 17/25 [7:41:26<9:09:29, 4121.21s/it]                                                                inference:  68%|██████▊   | 17/25 [8:01:41<9:09:29, 4121.21s/it]                                                                inference:  68%|██████▊   | 17/25 [8:01:41<9:09:29, 4121.21s/it]                                                                inference:  68%|██████▊   | 17/25 [8:01:41<9:09:29, 4121.21s/it]                                                                inference:  68%|██████▊   | 17/25 [8:01:41<9:09:29, 4121.21s/it]                                                                inference:  68%|██████▊   | 17/25 [8:01:41<9:09:29, 4121.21s/it]                                                                inference:  68%|██████▊   | 17/25 [8:01:41<9:09:29, 4121.21s/it]                                                                inference:  68%|██████▊   | 17/25 [8:01:41<9:09:29, 4121.21s/it]                                                                inference:  68%|██████▊   | 17/25 [8:01:41<9:09:29, 4121.21s/it]inference:  72%|███████▏  | 18/25 [8:01:41<6:18:55, 3247.92s/it]                                                                inference:  72%|███████▏  | 18/25 [8:09:29<6:18:55, 3247.92s/it]                                                                inference:  72%|███████▏  | 18/25 [8:09:29<6:18:55, 3247.92s/it]                                                                inference:  72%|███████▏  | 18/25 [8:09:29<6:18:55, 3247.92s/it]                                                                inference:  72%|███████▏  | 18/25 [8:09:29<6:18:55, 3247.92s/it]                                                                inference:  72%|███████▏  | 18/25 [8:09:29<6:18:55, 3247.92s/it]                                                                inference:  72%|███████▏  | 18/25 [8:09:29<6:18:55, 3247.92s/it]                                                                inference:  72%|███████▏  | 18/25 [8:09:29<6:18:55, 3247.92s/it]                                                                inference:  72%|███████▏  | 18/25 [8:09:29<6:18:55, 3247.92s/it]inference:  76%|███████▌  | 19/25 [8:09:29<4:01:18, 2413.04s/it]                                                                inference:  76%|███████▌  | 19/25 [8:16:18<4:01:18, 2413.04s/it]                                                                inference:  76%|███████▌  | 19/25 [8:16:18<4:01:18, 2413.04s/it]                                                                inference:  76%|███████▌  | 19/25 [8:16:18<4:01:18, 2413.04s/it]                                                                inference:  76%|███████▌  | 19/25 [8:16:18<4:01:18, 2413.04s/it]                                                                inference:  76%|███████▌  | 19/25 [8:16:18<4:01:18, 2413.04s/it]                                                                inference:  76%|███████▌  | 19/25 [8:16:18<4:01:18, 2413.04s/it]                                                                inference:  76%|███████▌  | 19/25 [8:16:18<4:01:18, 2413.04s/it]                                                                inference:  76%|███████▌  | 19/25 [8:16:18<4:01:18, 2413.04s/it]inference:  80%|████████  | 20/25 [8:16:18<2:30:56, 1811.30s/it]                                                                inference:  80%|████████  | 20/25 [8:28:05<2:30:56, 1811.30s/it]                                                                inference:  80%|████████  | 20/25 [8:28:05<2:30:56, 1811.30s/it]                                                                inference:  80%|████████  | 20/25 [8:28:05<2:30:56, 1811.30s/it]                                                                inference:  80%|████████  | 20/25 [8:28:05<2:30:56, 1811.30s/it]                                                                inference:  80%|████████  | 20/25 [8:28:05<2:30:56, 1811.30s/it]                                                                inference:  80%|████████  | 20/25 [8:28:05<2:30:56, 1811.30s/it]                                                                inference:  80%|████████  | 20/25 [8:28:05<2:30:56, 1811.30s/it]                                                                inference:  80%|████████  | 20/25 [8:28:05<2:30:56, 1811.30s/it]inference:  84%|████████▍ | 21/25 [8:28:05<1:38:39, 1479.99s/it]                                                                inference:  84%|████████▍ | 21/25 [8:30:23<1:38:39, 1479.99s/it]                                                                inference:  84%|████████▍ | 21/25 [8:30:23<1:38:39, 1479.99s/it]                                                                inference:  84%|████████▍ | 21/25 [8:30:23<1:38:39, 1479.99s/it]                                                                inference:  84%|████████▍ | 21/25 [8:30:23<1:38:39, 1479.99s/it]                                                                inference:  84%|████████▍ | 21/25 [8:30:23<1:38:39, 1479.99s/it]                                                                inference:  84%|████████▍ | 21/25 [8:30:23<1:38:39, 1479.99s/it]                                                                inference:  84%|████████▍ | 21/25 [8:30:23<1:38:39, 1479.99s/it]                                                                inference:  84%|████████▍ | 21/25 [8:30:23<1:38:39, 1479.99s/it]inference:  88%|████████▊ | 22/25 [8:30:23<53:51, 1077.26s/it]                                                                inference:  88%|████████▊ | 22/25 [8:41:06<53:51, 1077.26s/it]                                                              inference:  88%|████████▊ | 22/25 [8:41:06<53:51, 1077.26s/it]                                                              inference:  88%|████████▊ | 22/25 [8:41:06<53:51, 1077.26s/it]                                                              inference:  88%|████████▊ | 22/25 [8:41:06<53:51, 1077.26s/it]                                                              inference:  88%|████████▊ | 22/25 [8:41:06<53:51, 1077.26s/it]                                                              inference:  88%|████████▊ | 22/25 [8:41:06<53:51, 1077.26s/it]                                                              inference:  88%|████████▊ | 22/25 [8:41:06<53:51, 1077.26s/it]                                                              inference:  88%|████████▊ | 22/25 [8:41:06<53:51, 1077.26s/it]inference:  92%|█████████▏| 23/25 [8:41:06<31:33, 946.84s/it]                                                              inference:  92%|█████████▏| 23/25 [8:57:33<31:33, 946.84s/it]                                                             inference:  92%|█████████▏| 23/25 [8:57:33<31:33, 946.84s/it]                                                             inference:  92%|█████████▏| 23/25 [8:57:33<31:33, 946.84s/it]                                                             inference:  92%|█████████▏| 23/25 [8:57:33<31:33, 946.84s/it]                                                             inference:  92%|█████████▏| 23/25 [8:57:33<31:33, 946.84s/it]                                                             inference:  92%|█████████▏| 23/25 [8:57:33<31:33, 946.84s/it]                                                             inference:  92%|█████████▏| 23/25 [8:57:33<31:33, 946.84s/it]                                                             inference:  92%|█████████▏| 23/25 [8:57:33<31:33, 946.84s/it]inference:  96%|█████████▌| 24/25 [8:57:33<15:58, 958.84s/it]                                                             inference:  96%|█████████▌| 24/25 [9:06:24<15:58, 958.84s/it]                                                             inference:  96%|█████████▌| 24/25 [9:06:24<15:58, 958.84s/it]                                                             inference:  96%|█████████▌| 24/25 [9:06:24<15:58, 958.84s/it]                                                             inference:  96%|█████████▌| 24/25 [9:06:24<15:58, 958.84s/it]                                                             inference:  96%|█████████▌| 24/25 [9:06:24<15:58, 958.84s/it]                                                             inference:  96%|█████████▌| 24/25 [9:06:24<15:58, 958.84s/it]                                                             inference:  96%|█████████▌| 24/25 [9:06:24<15:58, 958.84s/it]                                                             inference:  96%|█████████▌| 24/25 [9:06:24<15:58, 958.84s/it]inference: 100%|██████████| 25/25 [9:06:24<00:00, 830.51s/it]inference: 100%|██████████| 25/25 [9:06:24<00:00, 1311.37s/it]
+CHANGING MAX_SEQ_LENGTH 2048 -> 8192 (unsloth bug?)
+ * task 'ac3e2b04_0': 5 candidates, correct solution not found
+   max_gen_prob:   25.00% (  4.00/ 16.00)
+   max_aug_prob:   25.00% (  4.00/ 16.00)
+   min_aug_prob:   25.00% (  4.00/ 16.00)
+   sum_aug_prob:   25.00% (  4.00/ 16.00)
+   mul_aug_prob:   25.00% (  4.00/ 16.00)
+   mul_all_prob:   25.00% (  4.00/ 16.00)
+   correct_found:  25.00% (  4.00/ 16.00)
+
+ * task 'ac605cbb_0': 0 candidates, correct solution not found
+   max_gen_prob:   23.53% (  4.00/ 17.00)
+   max_aug_prob:   23.53% (  4.00/ 17.00)
+   min_aug_prob:   23.53% (  4.00/ 17.00)
+   sum_aug_prob:   23.53% (  4.00/ 17.00)
+   mul_aug_prob:   23.53% (  4.00/ 17.00)
+   mul_all_prob:   23.53% (  4.00/ 17.00)
+   correct_found:  23.53% (  4.00/ 17.00)
+
+ * task 'ce8d95cc_0': 12 candidates, correct solution FOUND
+   max_gen_prob:   27.78% (  5.00/ 18.00), corr_sol. @ 1 / 12
+   max_aug_prob:   27.78% (  5.00/ 18.00), corr_sol. @ 1 / 12
+   min_aug_prob:   27.78% (  5.00/ 18.00), corr_sol. @ 1 / 12
+   sum_aug_prob:   27.78% (  5.00/ 18.00), corr_sol. @ 1 / 12
+   mul_aug_prob:   27.78% (  5.00/ 18.00), corr_sol. @ 1 / 12
+   mul_all_prob:   27.78% (  5.00/ 18.00), corr_sol. @ 1 / 12
+   correct_found:  27.78% (  5.00/ 18.00)
+
+ * task 'd2acf2cb_0': 10 candidates, correct solution FOUND
+   max_gen_prob:   26.32% (  5.00/ 19.00), corr_sol. @ 5 / 10
+   max_aug_prob:   26.32% (  5.00/ 19.00), corr_sol. @ 5 / 10
+   min_aug_prob:   26.32% (  5.00/ 19.00), corr_sol. @ 3 / 10
+   sum_aug_prob:   26.32% (  5.00/ 19.00), corr_sol. @ 4 / 10
+   mul_aug_prob:   26.32% (  5.00/ 19.00), corr_sol. @ 3 / 10
+   mul_all_prob:   26.32% (  5.00/ 19.00), corr_sol. @ 3 / 10
+   correct_found:  31.58% (  6.00/ 19.00)
+
+ * task 'ed74f2f2_0': 10 candidates, correct solution FOUND
+   max_gen_prob:   30.00% (  6.00/ 20.00), corr_sol. @ 1 / 10
+   max_aug_prob:   30.00% (  6.00/ 20.00), corr_sol. @ 1 / 10
+   min_aug_prob:   30.00% (  6.00/ 20.00), corr_sol. @ 2 / 10
+   sum_aug_prob:   30.00% (  6.00/ 20.00), corr_sol. @ 1 / 10
+   mul_aug_prob:   30.00% (  6.00/ 20.00), corr_sol. @ 2 / 10
+   mul_all_prob:   30.00% (  6.00/ 20.00), corr_sol. @ 1 / 10
+   correct_found:  35.00% (  7.00/ 20.00)
+
+ * task 'fc754716_0': 16 candidates, correct solution FOUND
+   max_gen_prob:   28.57% (  6.00/ 21.00), corr_sol. @ 7 / 16
+   max_aug_prob:   28.57% (  6.00/ 21.00), corr_sol. @ 6 / 16
+   min_aug_prob:   33.33% (  7.00/ 21.00), corr_sol. @ 2 / 16
+   sum_aug_prob:   28.57% (  6.00/ 21.00), corr_sol. @ 7 / 16
+   mul_aug_prob:   33.33% (  7.00/ 21.00), corr_sol. @ 2 / 16
+   mul_all_prob:   33.33% (  7.00/ 21.00), corr_sol. @ 2 / 16
+   correct_found:  38.10% (  8.00/ 21.00)
+
+ * task 'fd096ab6_0': 0 candidates, correct solution not found
+   max_gen_prob:   27.27% (  6.00/ 22.00)
+   max_aug_prob:   27.27% (  6.00/ 22.00)
+   min_aug_prob:   31.82% (  7.00/ 22.00)
+   sum_aug_prob:   27.27% (  6.00/ 22.00)
+   mul_aug_prob:   31.82% (  7.00/ 22.00)
+   mul_all_prob:   31.82% (  7.00/ 22.00)
+   correct_found:  36.36% (  8.00/ 22.00)
+
+ * task 'fd4b2b02_0': 0 candidates, correct solution not found
+   max_gen_prob:   26.09% (  6.00/ 23.00)
+   max_aug_prob:   26.09% (  6.00/ 23.00)
+   min_aug_prob:   30.43% (  7.00/ 23.00)
+   sum_aug_prob:   26.09% (  6.00/ 23.00)
+   mul_aug_prob:   30.43% (  7.00/ 23.00)
+   mul_all_prob:   30.43% (  7.00/ 23.00)
+   correct_found:  34.78% (  8.00/ 23.00)
+
+2 task(s) failed and were skipped -- see output_evaluation_Nemo_shard2of4/failed_tasks.txt
+Score for 'output_evaluation_Nemo_shard2of4/submission.json': 7.0
+/usr/lib/python3.11/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 2 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+=== Shard 2 completed successfully ===
+=== Shard 3/4, Attempt 1/8 ===
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+shard 3/4: 25 grouped tasks
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+==((====))==  Unsloth 2026.6.9: Fast Mistral patching. Transformers: 4.57.6. vLLM: 0.18.0.
+   \\   /|    NVIDIA L40. Num GPUs = 1. Max memory: 44.322 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.10.0+cu128. CUDA: 8.9. CUDA Toolkit: 12.8. Triton: 3.6.0
+\        /    Bfloat16 = TRUE. FA [Xformers = 0.0.35. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.26s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.36s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.38s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.02it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.12s/it]
+/path/to/venv/lib/python3.11/site-packages/peft/tuners/tuners_utils.py:1348: UserWarning: Model has `tie_word_embeddings=True` and a tied layer is part of the adapter, but `ensure_weight_tying` is not set to True. This can lead to complications, for example when merging the adapter or converting your model to formats other than safetensors. Check the discussion here: https://github.com/huggingface/peft/issues/2777
+  warnings.warn(msg)
+Unsloth 2026.6.9 patched 40 layers with 40 QKV layers, 40 O layers and 40 MLP layers.
+inference:   0%|          | 0/25 [00:00<?, ?it/s]                                                 inference:   0%|          | 0/25 [05:51<?, ?it/s]                                                 inference:   0%|          | 0/25 [05:51<?, ?it/s]                                                 inference:   0%|          | 0/25 [05:51<?, ?it/s]                                                 inference:   0%|          | 0/25 [05:51<?, ?it/s]                                                 inference:   0%|          | 0/25 [05:51<?, ?it/s]                                                 inference:   0%|          | 0/25 [05:51<?, ?it/s]                                                 inference:   0%|          | 0/25 [05:51<?, ?it/s]                                                 inference:   0%|          | 0/25 [05:51<?, ?it/s]inference:   4%|▍         | 1/25 [05:51<2:20:44, 351.86s/it]                                                            inference:   4%|▍         | 1/25 [57:39<2:20:44, 351.86s/it]                                                            inference:   4%|▍         | 1/25 [57:39<2:20:44, 351.86s/it]                                                            inference:   4%|▍         | 1/25 [57:39<2:20:44, 351.86s/it]                                                            inference:   4%|▍         | 1/25 [57:39<2:20:44, 351.86s/it]                                                            inference:   4%|▍         | 1/25 [57:39<2:20:44, 351.86s/it]                                                            inference:   4%|▍         | 1/25 [57:39<2:20:44, 351.86s/it]                                                            inference:   4%|▍         | 1/25 [57:39<2:20:44, 351.86s/it]                                                            inference:   4%|▍         | 1/25 [57:39<2:20:44, 351.86s/it]inference:   8%|▊         | 2/25 [57:39<12:36:17, 1972.94s/it]                                                              inference:   8%|▊         | 2/25 [1:14:30<12:36:17, 1972.94s/it]                                                                inference:   8%|▊         | 2/25 [1:14:30<12:36:17, 1972.94s/it]                                                                inference:   8%|▊         | 2/25 [1:14:30<12:36:17, 1972.94s/it]                                                                inference:   8%|▊         | 2/25 [1:14:30<12:36:17, 1972.94s/it]                                                                inference:   8%|▊         | 2/25 [1:14:30<12:36:17, 1972.94s/it]                                                                inference:   8%|▊         | 2/25 [1:14:30<12:36:17, 1972.94s/it]                                                                inference:   8%|▊         | 2/25 [1:14:30<12:36:17, 1972.94s/it]                                                                inference:   8%|▊         | 2/25 [1:14:30<12:36:17, 1972.94s/it]inference:  12%|█▏        | 3/25 [1:14:30<9:22:16, 1533.46s/it]                                                                inference:  12%|█▏        | 3/25 [1:29:08<9:22:16, 1533.46s/it]                                                               inference:  12%|█▏        | 3/25 [1:29:08<9:22:16, 1533.46s/it]                                                               inference:  12%|█▏        | 3/25 [1:29:08<9:22:16, 1533.46s/it]                                                               inference:  12%|█▏        | 3/25 [1:29:08<9:22:16, 1533.46s/it]                                                               inference:  12%|█▏        | 3/25 [1:29:08<9:22:16, 1533.46s/it]                                                               inference:  12%|█▏        | 3/25 [1:29:08<9:22:16, 1533.46s/it]                                                               inference:  12%|█▏        | 3/25 [1:29:08<9:22:16, 1533.46s/it]                                                               inference:  12%|█▏        | 3/25 [1:29:08<9:22:16, 1533.46s/it]inference:  16%|█▌        | 4/25 [1:29:08<7:26:10, 1274.81s/it]                                                               inference:  16%|█▌        | 4/25 [1:33:33<7:26:10, 1274.81s/it]                                                               inference:  16%|█▌        | 4/25 [1:33:33<7:26:10, 1274.81s/it]                                                               inference:  16%|█▌        | 4/25 [1:33:33<7:26:10, 1274.81s/it]                                                               inference:  16%|█▌        | 4/25 [1:33:33<7:26:10, 1274.81s/it]                                                               inference:  16%|█▌        | 4/25 [1:33:33<7:26:10, 1274.81s/it]                                                               inference:  16%|█▌        | 4/25 [1:33:33<7:26:10, 1274.81s/it]                                                               inference:  16%|█▌        | 4/25 [1:33:33<7:26:10, 1274.81s/it]                                                               inference:  16%|█▌        | 4/25 [1:33:33<7:26:10, 1274.81s/it]inference:  20%|██        | 5/25 [1:33:33<5:03:37, 910.87s/it]                                                               inference:  20%|██        | 5/25 [1:55:19<5:03:37, 910.87s/it]                                                              inference:  20%|██        | 5/25 [1:55:19<5:03:37, 910.87s/it]                                                              inference:  20%|██        | 5/25 [1:55:19<5:03:37, 910.87s/it]                                                              inference:  20%|██        | 5/25 [1:55:19<5:03:37, 910.87s/it]                                                              inference:  20%|██        | 5/25 [1:55:19<5:03:37, 910.87s/it]                                                              inference:  20%|██        | 5/25 [1:55:19<5:03:37, 910.87s/it]                                                              inference:  20%|██        | 5/25 [1:55:19<5:03:37, 910.87s/it]                                                              inference:  20%|██        | 5/25 [1:55:19<5:03:37, 910.87s/it]inference:  24%|██▍       | 6/25 [1:55:19<5:30:55, 1045.05s/it]                                                               inference:  24%|██▍       | 6/25 [1:56:39<5:30:55, 1045.05s/it]                                                               inference:  24%|██▍       | 6/25 [1:56:39<5:30:55, 1045.05s/it]                                                               inference:  24%|██▍       | 6/25 [1:56:39<5:30:55, 1045.05s/it]                                                               inference:  24%|██▍       | 6/25 [1:56:39<5:30:55, 1045.05s/it]                                                               inference:  24%|██▍       | 6/25 [1:56:39<5:30:55, 1045.05s/it]                                                               inference:  24%|██▍       | 6/25 [1:56:39<5:30:55, 1045.05s/it]                                                               inference:  24%|██▍       | 6/25 [1:56:39<5:30:55, 1045.05s/it]                                                               inference:  24%|██▍       | 6/25 [1:56:39<5:30:55, 1045.05s/it]inference:  28%|██▊       | 7/25 [1:56:39<3:38:53, 729.63s/it]                                                               inference:  28%|██▊       | 7/25 [2:03:44<3:38:53, 729.63s/it]                                                              inference:  28%|██▊       | 7/25 [2:03:44<3:38:53, 729.63s/it]                                                              inference:  28%|██▊       | 7/25 [2:03:44<3:38:53, 729.63s/it]                                                              inference:  28%|██▊       | 7/25 [2:03:44<3:38:53, 729.63s/it]                                                              inference:  28%|██▊       | 7/25 [2:03:44<3:38:53, 729.63s/it]                                                              inference:  28%|██▊       | 7/25 [2:03:44<3:38:53, 729.63s/it]                                                              inference:  28%|██▊       | 7/25 [2:03:44<3:38:53, 729.63s/it]                                                              inference:  28%|██▊       | 7/25 [2:03:44<3:38:53, 729.63s/it]inference:  32%|███▏      | 8/25 [2:03:44<2:59:13, 632.59s/it]                                                              inference:  32%|███▏      | 8/25 [2:35:21<2:59:13, 632.59s/it]                                                              inference:  32%|███▏      | 8/25 [2:35:21<2:59:13, 632.59s/it]                                                              inference:  32%|███▏      | 8/25 [2:35:21<2:59:13, 632.59s/it]                                                              inference:  32%|███▏      | 8/25 [2:35:21<2:59:13, 632.59s/it]                                                              inference:  32%|███▏      | 8/25 [2:35:21<2:59:13, 632.59s/it]                                                              inference:  32%|███▏      | 8/25 [2:35:21<2:59:13, 632.59s/it]                                                              inference:  32%|███▏      | 8/25 [2:35:21<2:59:13, 632.59s/it]                                                              inference:  32%|███▏      | 8/25 [2:35:21<2:59:13, 632.59s/it]inference:  36%|███▌      | 9/25 [2:35:21<4:34:05, 1027.83s/it]                                                               inference:  36%|███▌      | 9/25 [2:48:21<4:34:05, 1027.83s/it]                                                               inference:  36%|███▌      | 9/25 [2:48:21<4:34:05, 1027.83s/it]                                                               inference:  36%|███▌      | 9/25 [2:48:21<4:34:05, 1027.83s/it]                                                               inference:  36%|███▌      | 9/25 [2:48:21<4:34:05, 1027.83s/it]                                                               inference:  36%|███▌      | 9/25 [2:48:21<4:34:05, 1027.83s/it]                                                               inference:  36%|███▌      | 9/25 [2:48:21<4:34:05, 1027.83s/it]                                                               inference:  36%|███▌      | 9/25 [2:48:21<4:34:05, 1027.83s/it]                                                               inference:  36%|███▌      | 9/25 [2:48:21<4:34:05, 1027.83s/it]inference:  40%|████      | 10/25 [2:48:21<3:57:52, 951.48s/it]                                                               inference:  40%|████      | 10/25 [2:50:01<3:57:52, 951.48s/it]                                                               inference:  40%|████      | 10/25 [2:50:01<3:57:52, 951.48s/it]                                                               inference:  40%|████      | 10/25 [2:50:01<3:57:52, 951.48s/it]                                                               inference:  40%|████      | 10/25 [2:50:01<3:57:52, 951.48s/it]                                                               inference:  40%|████      | 10/25 [2:50:01<3:57:52, 951.48s/it]                                                               inference:  40%|████      | 10/25 [2:50:01<3:57:52, 951.48s/it]                                                               inference:  40%|████      | 10/25 [2:50:01<3:57:52, 951.48s/it]                                                               inference:  40%|████      | 10/25 [2:50:01<3:57:52, 951.48s/it]inference:  44%|████▍     | 11/25 [2:50:01<2:41:10, 690.74s/it]                                                               inference:  44%|████▍     | 11/25 [3:00:02<2:41:10, 690.74s/it]                                                               inference:  44%|████▍     | 11/25 [3:00:02<2:41:10, 690.74s/it]                                                               inference:  44%|████▍     | 11/25 [3:00:02<2:41:10, 690.74s/it]                                                               inference:  44%|████▍     | 11/25 [3:00:02<2:41:10, 690.74s/it]                                                               inference:  44%|████▍     | 11/25 [3:00:02<2:41:10, 690.74s/it]                                                               inference:  44%|████▍     | 11/25 [3:00:02<2:41:10, 690.74s/it]                                                               inference:  44%|████▍     | 11/25 [3:00:02<2:41:10, 690.74s/it]                                                               inference:  44%|████▍     | 11/25 [3:00:02<2:41:10, 690.74s/it]inference:  48%|████▊     | 12/25 [3:00:02<2:23:45, 663.50s/it]                                                               inference:  48%|████▊     | 12/25 [3:17:00<2:23:45, 663.50s/it]                                                               inference:  48%|████▊     | 12/25 [3:17:00<2:23:45, 663.50s/it]                                                               inference:  48%|████▊     | 12/25 [3:17:00<2:23:45, 663.50s/it]                                                               inference:  48%|████▊     | 12/25 [3:17:00<2:23:45, 663.50s/it]                                                               inference:  48%|████▊     | 12/25 [3:17:00<2:23:45, 663.50s/it]                                                               inference:  48%|████▊     | 12/25 [3:17:00<2:23:45, 663.50s/it]                                                               inference:  48%|████▊     | 12/25 [3:17:00<2:23:45, 663.50s/it]                                                               inference:  48%|████▊     | 12/25 [3:17:00<2:23:45, 663.50s/it]inference:  52%|█████▏    | 13/25 [3:17:00<2:34:09, 770.80s/it]                                                               inference:  52%|█████▏    | 13/25 [5:18:11<2:34:09, 770.80s/it] * task '03560426_0': 0 candidates, correct solution not found
+   max_gen_prob:    0.00% (  0.00/  1.00)
+   max_aug_prob:    0.00% (  0.00/  1.00)
+   min_aug_prob:    0.00% (  0.00/  1.00)
+   sum_aug_prob:    0.00% (  0.00/  1.00)
+   mul_aug_prob:    0.00% (  0.00/  1.00)
+   mul_all_prob:    0.00% (  0.00/  1.00)
+   correct_found:   0.00% (  0.00/  1.00)
+
+ * task '0607ce86_0': 8 candidates, correct solution FOUND
+   max_gen_prob:   50.00% (  1.00/  2.00), corr_sol. @ 1 / 8
+   max_aug_prob:   50.00% (  1.00/  2.00), corr_sol. @ 1 / 8
+   min_aug_prob:   50.00% (  1.00/  2.00), corr_sol. @ 1 / 8
+   sum_aug_prob:   50.00% (  1.00/  2.00), corr_sol. @ 1 / 8
+   mul_aug_prob:   50.00% (  1.00/  2.00), corr_sol. @ 1 / 8
+   mul_all_prob:   50.00% (  1.00/  2.00), corr_sol. @ 1 / 8
+   correct_found:  50.00% (  1.00/  2.00)
+
+ * task '1c0d0a4b_0': 10 candidates, correct solution FOUND
+   max_gen_prob:   66.67% (  2.00/  3.00), corr_sol. @ 1 / 10
+   max_aug_prob:   66.67% (  2.00/  3.00), corr_sol. @ 1 / 10
+   min_aug_prob:   66.67% (  2.00/  3.00), corr_sol. @ 1 / 10
+   sum_aug_prob:   66.67% (  2.00/  3.00), corr_sol. @ 1 / 10
+   mul_aug_prob:   66.67% (  2.00/  3.00), corr_sol. @ 1 / 10
+   mul_all_prob:   66.67% (  2.00/  3.00), corr_sol. @ 1 / 10
+   correct_found:  66.67% (  2.00/  3.00)
+
+ * task '2b01abd0_0': 4 candidates, correct solution not found
+   max_gen_prob:   50.00% (  2.00/  4.00)
+   max_aug_prob:   50.00% (  2.00/  4.00)
+   min_aug_prob:   50.00% (  2.00/  4.00)
+   sum_aug_prob:   50.00% (  2.00/  4.00)
+   mul_aug_prob:   50.00% (  2.00/  4.00)
+   mul_all_prob:   50.00% (  2.00/  4.00)
+   correct_found:  50.00% (  2.00/  4.00)
+
+ * task '2c0b0aff_0': 0 candidates, correct solution not found
+   max_gen_prob:   40.00% (  2.00/  5.00)
+   max_aug_prob:   40.00% (  2.00/  5.00)
+   min_aug_prob:   40.00% (  2.00/  5.00)
+   sum_aug_prob:   40.00% (  2.00/  5.00)
+   mul_aug_prob:   40.00% (  2.00/  5.00)
+   mul_all_prob:   40.00% (  2.00/  5.00)
+   correct_found:  40.00% (  2.00/  5.00)
+
+ * task '310f3251_0': 10 candidates, correct solution FOUND
+   max_gen_prob:   50.00% (  3.00/  6.00), corr_sol. @ 1 / 10
+   max_aug_prob:   50.00% (  3.00/  6.00), corr_sol. @ 1 / 10
+   min_aug_prob:   50.00% (  3.00/  6.00), corr_sol. @ 1 / 10
+   sum_aug_prob:   50.00% (  3.00/  6.00), corr_sol. @ 1 / 10
+   mul_aug_prob:   50.00% (  3.00/  6.00), corr_sol. @ 1 / 10
+   mul_all_prob:   50.00% (  3.00/  6.00), corr_sol. @ 1 / 10
+   correct_found:  50.00% (  3.00/  6.00)
+
+ * task '3d31c5b3_0': 0 candidates, correct solution not found
+   max_gen_prob:   42.86% (  3.00/  7.00)
+   max_aug_prob:   42.86% (  3.00/  7.00)
+   min_aug_prob:   42.86% (  3.00/  7.00)
+   sum_aug_prob:   42.86% (  3.00/  7.00)
+   mul_aug_prob:   42.86% (  3.00/  7.00)
+   mul_all_prob:   42.86% (  3.00/  7.00)
+   correct_found:  42.86% (  3.00/  7.00)
+
+ * task '45737921_0': 9 candidates, correct solution FOUND
+   max_gen_prob:   50.00% (  4.00/  8.00), corr_sol. @ 1 / 9
+   max_aug_prob:   50.00% (  4.00/  8.00), corr_sol. @ 1 / 9
+   min_aug_prob:   50.00% (  4.00/  8.00), corr_sol. @ 1 / 9
+   sum_aug_prob:   50.00% (  4.00/  8.00), corr_sol. @ 1 / 9
+   mul_aug_prob:   50.00% (  4.00/  8.00), corr_sol. @ 1 / 9
+   mul_all_prob:   50.00% (  4.00/  8.00), corr_sol. @ 1 / 9
+   correct_found:  50.00% (  4.00/  8.00)
+
+ * task '4f537728_0': 5 candidates, correct solution FOUND
+   max_gen_prob:   55.56% (  5.00/  9.00), corr_sol. @ 1 / 5
+   max_aug_prob:   55.56% (  5.00/  9.00), corr_sol. @ 1 / 5
+   min_aug_prob:   55.56% (  5.00/  9.00), corr_sol. @ 1 / 5
+   sum_aug_prob:   55.56% (  5.00/  9.00), corr_sol. @ 1 / 5
+   mul_aug_prob:   55.56% (  5.00/  9.00), corr_sol. @ 1 / 5
+   mul_all_prob:   55.56% (  5.00/  9.00), corr_sol. @ 1 / 5
+   correct_found:  55.56% (  5.00/  9.00)
+
+ * task '7ee1c6ea_0': 12 candidates, correct solution FOUND
+   max_gen_prob:   60.00% (  6.00/ 10.00), corr_sol. @ 1 / 12
+   max_aug_prob:   60.00% (  6.00/ 10.00), corr_sol. @ 1 / 12
+   min_aug_prob:   60.00% (  6.00/ 10.00), corr_sol. @ 1 / 12
+   sum_aug_prob:   60.00% (  6.00/ 10.00), corr_sol. @ 1 / 12
+   mul_aug_prob:   60.00% (  6.00/ 10.00), corr_sol. @ 1 / 12
+   mul_all_prob:   60.00% (  6.00/ 10.00), corr_sol. @ 1 / 12
+   correct_found:  60.00% (  6.00/ 10.00)
+
+ * task '85fa5666_0': 0 candidates, correct solution not found
+   max_gen_prob:   54.55% (  6.00/ 11.00)
+   max_aug_prob:   54.55% (  6.00/ 11.00)
+   min_aug_prob:   54.55% (  6.00/ 11.00)
+   sum_aug_prob:   54.55% (  6.00/ 11.00)
+   mul_aug_prob:   54.55% (  6.00/ 11.00)
+   mul_all_prob:   54.55% (  6.00/ 11.00)
+   correct_found:  54.55% (  6.00/ 11.00)
+
+ * task '94414823_0': 2 candidates, correct solution FOUND
+   max_gen_prob:   58.33% (  7.00/ 12.00), corr_sol. @ 1 / 2
+   max_aug_prob:   58.33% (  7.00/ 12.00), corr_sol. @ 1 / 2
+   min_aug_prob:   58.33% (  7.00/ 12.00), corr_sol. @ 1 / 2
+   sum_aug_prob:   58.33% (  7.00/ 12.00), corr_sol. @ 1 / 2
+   mul_aug_prob:   58.33% (  7.00/ 12.00), corr_sol. @ 1 / 2
+   mul_all_prob:   58.33% (  7.00/ 12.00), corr_sol. @ 1 / 2
+   correct_found:  58.33% (  7.00/ 12.00)
+
+ * task '9772c176_0': 0 candidates, correct solution not found
+   max_gen_prob:   53.85% (  7.00/ 13.00)
+   max_aug_prob:   53.85% (  7.00/ 13.00)
+   min_aug_prob:   53.85% (  7.00/ 13.00)
+   sum_aug_prob:   53.85% (  7.00/ 13.00)
+   mul_aug_prob:   53.85% (  7.00/ 13.00)
+   mul_all_prob:   53.85% (  7.00/ 13.00)
+   correct_found:  53.85% (  7.00/ 13.00)
+
+!!! task '981571dc_0' FAILED (task exceeded 7200s timeout (worker still alive but hung)) -- skipping, respawning worker
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+==((====))==  Unsloth 2026.6.9: Fast Mistral patching. Transformers: 4.57.6. vLLM: 0.18.0.
+   \\   /|    NVIDIA L40. Num GPUs = 1. Max memory: 44.322 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.10.0+cu128. CUDA: 8.9. CUDA Toolkit: 12.8. Triton: 3.6.0
+\        /    Bfloat16 = TRUE. FA [Xformers = 0.0.35. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:33<01:41, 33.78s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:08<01:08, 34.32s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:36<00:31, 31.33s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:45<00:00, 22.41s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:45<00:00, 26.25s/it]
+/path/to/venv/lib/python3.11/site-packages/peft/tuners/tuners_utils.py:1348: UserWarning: Model has `tie_word_embeddings=True` and a tied layer is part of the adapter, but `ensure_weight_tying` is not set to True. This can lead to complications, for example when merging the adapter or converting your model to formats other than safetensors. Check the discussion here: https://github.com/huggingface/peft/issues/2777
+  warnings.warn(msg)
+Unsloth 2026.6.9 patched 40 layers with 40 QKV layers, 40 O layers and 40 MLP layers.
+inference:  56%|█████▌    | 14/25 [5:21:48<8:33:17, 2799.74s/it]                                                                inference:  56%|█████▌    | 14/25 [5:26:13<8:33:17, 2799.74s/it]                                                                inference:  56%|█████▌    | 14/25 [5:26:13<8:33:17, 2799.74s/it]                                                                inference:  56%|█████▌    | 14/25 [5:26:13<8:33:17, 2799.74s/it]                                                                inference:  56%|█████▌    | 14/25 [5:26:13<8:33:17, 2799.74s/it]                                                                inference:  56%|█████▌    | 14/25 [5:26:13<8:33:17, 2799.74s/it]                                                                inference:  56%|█████▌    | 14/25 [5:26:13<8:33:17, 2799.74s/it]                                                                inference:  56%|█████▌    | 14/25 [5:26:13<8:33:17, 2799.74s/it]                                                                inference:  56%|█████▌    | 14/25 [5:26:13<8:33:17, 2799.74s/it]inference:  60%|██████    | 15/25 [5:26:13<5:39:18, 2035.81s/it]                                                                inference:  60%|██████    | 15/25 [5:29:17<5:39:18, 2035.81s/it]                                                                inference:  60%|██████    | 15/25 [5:29:17<5:39:18, 2035.81s/it]                                                                inference:  60%|██████    | 15/25 [5:29:17<5:39:18, 2035.81s/it]                                                                inference:  60%|██████    | 15/25 [5:29:17<5:39:18, 2035.81s/it]                                                                inference:  60%|██████    | 15/25 [5:29:17<5:39:18, 2035.81s/it]                                                                inference:  60%|██████    | 15/25 [5:29:17<5:39:18, 2035.81s/it]                                                                inference:  60%|██████    | 15/25 [5:29:17<5:39:18, 2035.81s/it]                                                                inference:  60%|██████    | 15/25 [5:29:17<5:39:18, 2035.81s/it]                                                                inference:  60%|██████    | 15/25 [5:33:59<5:39:18, 2035.81s/it]                                                                inference:  60%|██████    | 15/25 [5:33:59<5:39:18, 2035.81s/it]                                                                inference:  60%|██████    | 15/25 [5:33:59<5:39:18, 2035.81s/it]                                                                inference:  60%|██████    | 15/25 [5:33:59<5:39:18, 2035.81s/it]                                                                inference:  60%|██████    | 15/25 [5:33:59<5:39:18, 2035.81s/it]                                                                inference:  60%|██████    | 15/25 [5:33:59<5:39:18, 2035.81s/it]                                                                inference:  60%|██████    | 15/25 [5:33:59<5:39:18, 2035.81s/it]                                                                inference:  60%|██████    | 15/25 [5:33:59<5:39:18, 2035.81s/it]inference:  64%|██████▍   | 16/25 [5:33:59<3:54:29, 1563.24s/it]                                                                inference:  64%|██████▍   | 16/25 [6:00:38<3:54:29, 1563.24s/it]                                                                inference:  64%|██████▍   | 16/25 [6:00:38<3:54:29, 1563.24s/it]                                                                inference:  64%|██████▍   | 16/25 [6:00:38<3:54:29, 1563.24s/it]                                                                inference:  64%|██████▍   | 16/25 [6:00:38<3:54:29, 1563.24s/it]                                                                inference:  64%|██████▍   | 16/25 [6:00:38<3:54:29, 1563.24s/it]                                                                inference:  64%|██████▍   | 16/25 [6:00:38<3:54:29, 1563.24s/it]                                                                inference:  64%|██████▍   | 16/25 [6:00:38<3:54:29, 1563.24s/it]                                                                inference:  64%|██████▍   | 16/25 [6:00:38<3:54:29, 1563.24s/it]inference:  68%|██████▊   | 17/25 [6:00:38<3:29:52, 1574.03s/it]                                                                inference:  68%|██████▊   | 17/25 [6:10:12<3:29:52, 1574.03s/it]                                                                inference:  68%|██████▊   | 17/25 [6:10:12<3:29:52, 1574.03s/it]                                                                inference:  68%|██████▊   | 17/25 [6:10:12<3:29:52, 1574.03s/it]                                                                inference:  68%|██████▊   | 17/25 [6:10:12<3:29:52, 1574.03s/it]                                                                inference:  68%|██████▊   | 17/25 [6:10:12<3:29:52, 1574.03s/it]                                                                inference:  68%|██████▊   | 17/25 [6:10:12<3:29:52, 1574.03s/it]                                                                inference:  68%|██████▊   | 17/25 [6:10:12<3:29:52, 1574.03s/it]                                                                inference:  68%|██████▊   | 17/25 [6:10:12<3:29:52, 1574.03s/it]inference:  72%|███████▏  | 18/25 [6:10:12<2:28:33, 1273.35s/it]                                                                inference:  72%|███████▏  | 18/25 [6:19:16<2:28:33, 1273.35s/it]                                                                inference:  72%|███████▏  | 18/25 [6:19:16<2:28:33, 1273.35s/it]                                                                inference:  72%|███████▏  | 18/25 [6:19:16<2:28:33, 1273.35s/it]                                                                inference:  72%|███████▏  | 18/25 [6:19:16<2:28:33, 1273.35s/it]                                                                inference:  72%|███████▏  | 18/25 [6:19:16<2:28:33, 1273.35s/it]                                                                inference:  72%|███████▏  | 18/25 [6:19:16<2:28:33, 1273.35s/it]                                                                inference:  72%|███████▏  | 18/25 [6:19:16<2:28:33, 1273.35s/it]                                                                inference:  72%|███████▏  | 18/25 [6:19:16<2:28:33, 1273.35s/it]inference:  76%|███████▌  | 19/25 [6:19:16<1:45:25, 1054.33s/it]                                                                inference:  76%|███████▌  | 19/25 [6:33:19<1:45:25, 1054.33s/it]                                                                inference:  76%|███████▌  | 19/25 [6:33:19<1:45:25, 1054.33s/it]                                                                inference:  76%|███████▌  | 19/25 [6:33:19<1:45:25, 1054.33s/it]                                                                inference:  76%|███████▌  | 19/25 [6:33:19<1:45:25, 1054.33s/it]                                                                inference:  76%|███████▌  | 19/25 [6:33:19<1:45:25, 1054.33s/it]                                                                inference:  76%|███████▌  | 19/25 [6:33:19<1:45:25, 1054.33s/it]                                                                inference:  76%|███████▌  | 19/25 [6:33:19<1:45:25, 1054.33s/it]                                                                inference:  76%|███████▌  | 19/25 [6:33:19<1:45:25, 1054.33s/it]inference:  80%|████████  | 20/25 [6:33:19<1:22:34, 990.90s/it]                                                                inference:  80%|████████  | 20/25 [6:42:09<1:22:34, 990.90s/it]                                                               inference:  80%|████████  | 20/25 [6:42:09<1:22:34, 990.90s/it]                                                               inference:  80%|████████  | 20/25 [6:42:09<1:22:34, 990.90s/it]                                                               inference:  80%|████████  | 20/25 [6:42:09<1:22:34, 990.90s/it]                                                               inference:  80%|████████  | 20/25 [6:42:09<1:22:34, 990.90s/it]                                                               inference:  80%|████████  | 20/25 [6:42:09<1:22:34, 990.90s/it]                                                               inference:  80%|████████  | 20/25 [6:42:09<1:22:34, 990.90s/it]                                                               inference:  80%|████████  | 20/25 [6:42:09<1:22:34, 990.90s/it]inference:  84%|████████▍ | 21/25 [6:42:09<56:50, 852.53s/it]                                                               inference:  84%|████████▍ | 21/25 [6:43:55<56:50, 852.53s/it]                                                             inference:  84%|████████▍ | 21/25 [6:43:55<56:50, 852.53s/it]                                                             inference:  84%|████████▍ | 21/25 [6:43:55<56:50, 852.53s/it]                                                             inference:  84%|████████▍ | 21/25 [6:43:55<56:50, 852.53s/it]                                                             inference:  84%|████████▍ | 21/25 [6:43:55<56:50, 852.53s/it]                                                             inference:  84%|████████▍ | 21/25 [6:43:55<56:50, 852.53s/it]                                                             inference:  84%|████████▍ | 21/25 [6:43:55<56:50, 852.53s/it]                                                             inference:  84%|████████▍ | 21/25 [6:43:55<56:50, 852.53s/it]inference:  88%|████████▊ | 22/25 [6:43:55<31:25, 628.49s/it]                                                             inference:  88%|████████▊ | 22/25 [7:20:09<31:25, 628.49s/it]                                                             inference:  88%|████████▊ | 22/25 [7:20:09<31:25, 628.49s/it]                                                             inference:  88%|████████▊ | 22/25 [7:20:09<31:25, 628.49s/it]                                                             inference:  88%|████████▊ | 22/25 [7:20:09<31:25, 628.49s/it]                                                             inference:  88%|████████▊ | 22/25 [7:20:09<31:25, 628.49s/it]                                                             inference:  88%|████████▊ | 22/25 [7:20:09<31:25, 628.49s/it]                                                             inference:  88%|████████▊ | 22/25 [7:20:09<31:25, 628.49s/it]                                                             inference:  88%|████████▊ | 22/25 [7:20:09<31:25, 628.49s/it]inference:  92%|█████████▏| 23/25 [7:20:09<36:24, 1092.44s/it]                                                              inference:  92%|█████████▏| 23/25 [7:25:56<36:24, 1092.44s/it]                                                              inference:  92%|█████████▏| 23/25 [7:25:56<36:24, 1092.44s/it]                                                              inference:  92%|█████████▏| 23/25 [7:25:56<36:24, 1092.44s/it]                                                              inference:  92%|█████████▏| 23/25 [7:25:56<36:24, 1092.44s/it]                                                              inference:  92%|█████████▏| 23/25 [7:25:56<36:24, 1092.44s/it]                                                              inference:  92%|█████████▏| 23/25 [7:25:56<36:24, 1092.44s/it]                                                              inference:  92%|█████████▏| 23/25 [7:25:56<36:24, 1092.44s/it]                                                              inference:  92%|█████████▏| 23/25 [7:25:56<36:24, 1092.44s/it]inference:  96%|█████████▌| 24/25 [7:25:56<14:28, 868.79s/it]                                                              inference:  96%|█████████▌| 24/25 [7:29:06<14:28, 868.79s/it]                                                             inference:  96%|█████████▌| 24/25 [7:29:06<14:28, 868.79s/it]                                                             inference:  96%|█████████▌| 24/25 [7:29:06<14:28, 868.79s/it]                                                             inference:  96%|█████████▌| 24/25 [7:29:06<14:28, 868.79s/it]                                                             inference:  96%|█████████▌| 24/25 [7:29:06<14:28, 868.79s/it]                                                             inference:  96%|█████████▌| 24/25 [7:29:06<14:28, 868.79s/it]                                                             inference:  96%|█████████▌| 24/25 [7:29:06<14:28, 868.79s/it]                                                             inference:  96%|█████████▌| 24/25 [7:29:06<14:28, 868.79s/it]inference: 100%|██████████| 25/25 [7:29:06<00:00, 664.98s/it]inference: 100%|██████████| 25/25 [7:29:06<00:00, 1077.86s/it]
+CHANGING MAX_SEQ_LENGTH 2048 -> 8192 (unsloth bug?)
+ * task 'a04b2602_0': 0 candidates, correct solution not found
+   max_gen_prob:   50.00% (  7.00/ 14.00)
+   max_aug_prob:   50.00% (  7.00/ 14.00)
+   min_aug_prob:   50.00% (  7.00/ 14.00)
+   sum_aug_prob:   50.00% (  7.00/ 14.00)
+   mul_aug_prob:   50.00% (  7.00/ 14.00)
+   mul_all_prob:   50.00% (  7.00/ 14.00)
+   correct_found:  50.00% (  7.00/ 14.00)
+
+ * task 'b1fc8b8e_0': 4 candidates, correct solution FOUND
+   max_gen_prob:   51.72% (  7.50/ 14.50), corr_sol. @ 2 / 4
+   max_aug_prob:   51.72% (  7.50/ 14.50), corr_sol. @ 2 / 4
+   min_aug_prob:   51.72% (  7.50/ 14.50), corr_sol. @ 2 / 4
+   sum_aug_prob:   51.72% (  7.50/ 14.50), corr_sol. @ 2 / 4
+   mul_aug_prob:   51.72% (  7.50/ 14.50), corr_sol. @ 2 / 4
+   mul_all_prob:   51.72% (  7.50/ 14.50), corr_sol. @ 2 / 4
+   correct_found:  51.72% (  7.50/ 14.50)
+
+ * task 'b1fc8b8e_1': 9 candidates, correct solution FOUND
+   max_gen_prob:   53.33% (  8.00/ 15.00), corr_sol. @ 1 / 9
+   max_aug_prob:   53.33% (  8.00/ 15.00), corr_sol. @ 1 / 9
+   min_aug_prob:   53.33% (  8.00/ 15.00), corr_sol. @ 1 / 9
+   sum_aug_prob:   53.33% (  8.00/ 15.00), corr_sol. @ 1 / 9
+   mul_aug_prob:   53.33% (  8.00/ 15.00), corr_sol. @ 1 / 9
+   mul_all_prob:   53.33% (  8.00/ 15.00), corr_sol. @ 1 / 9
+   correct_found:  53.33% (  8.00/ 15.00)
+
+ * task 'b9630600_0': 0 candidates, correct solution not found
+   max_gen_prob:   50.00% (  8.00/ 16.00)
+   max_aug_prob:   50.00% (  8.00/ 16.00)
+   min_aug_prob:   50.00% (  8.00/ 16.00)
+   sum_aug_prob:   50.00% (  8.00/ 16.00)
+   mul_aug_prob:   50.00% (  8.00/ 16.00)
+   mul_all_prob:   50.00% (  8.00/ 16.00)
+   correct_found:  50.00% (  8.00/ 16.00)
+
+ * task 'bf32578f_0': 11 candidates, correct solution not found
+   max_gen_prob:   47.06% (  8.00/ 17.00)
+   max_aug_prob:   47.06% (  8.00/ 17.00)
+   min_aug_prob:   47.06% (  8.00/ 17.00)
+   sum_aug_prob:   47.06% (  8.00/ 17.00)
+   mul_aug_prob:   47.06% (  8.00/ 17.00)
+   mul_all_prob:   47.06% (  8.00/ 17.00)
+   correct_found:  47.06% (  8.00/ 17.00)
+
+ * task 'dd2401ed_0': 8 candidates, correct solution not found
+   max_gen_prob:   44.44% (  8.00/ 18.00)
+   max_aug_prob:   44.44% (  8.00/ 18.00)
+   min_aug_prob:   44.44% (  8.00/ 18.00)
+   sum_aug_prob:   44.44% (  8.00/ 18.00)
+   mul_aug_prob:   44.44% (  8.00/ 18.00)
+   mul_all_prob:   44.44% (  8.00/ 18.00)
+   correct_found:  44.44% (  8.00/ 18.00)
+
+ * task 'e2092e0c_0': 4 candidates, correct solution not found
+   max_gen_prob:   42.11% (  8.00/ 19.00)
+   max_aug_prob:   42.11% (  8.00/ 19.00)
+   min_aug_prob:   42.11% (  8.00/ 19.00)
+   sum_aug_prob:   42.11% (  8.00/ 19.00)
+   mul_aug_prob:   42.11% (  8.00/ 19.00)
+   mul_all_prob:   42.11% (  8.00/ 19.00)
+   correct_found:  42.11% (  8.00/ 19.00)
+
+ * task 'e7b06bea_0': 12 candidates, correct solution FOUND
+   max_gen_prob:   40.00% (  8.00/ 20.00), corr_sol. @10 / 12
+   max_aug_prob:   45.00% (  9.00/ 20.00), corr_sol. @ 2 / 12
+   min_aug_prob:   45.00% (  9.00/ 20.00), corr_sol. @ 1 / 12
+   sum_aug_prob:   45.00% (  9.00/ 20.00), corr_sol. @ 2 / 12
+   mul_aug_prob:   45.00% (  9.00/ 20.00), corr_sol. @ 1 / 12
+   mul_all_prob:   45.00% (  9.00/ 20.00), corr_sol. @ 1 / 12
+   correct_found:  45.00% (  9.00/ 20.00)
+
+ * task 'e9bb6954_0': 0 candidates, correct solution not found
+   max_gen_prob:   38.10% (  8.00/ 21.00)
+   max_aug_prob:   42.86% (  9.00/ 21.00)
+   min_aug_prob:   42.86% (  9.00/ 21.00)
+   sum_aug_prob:   42.86% (  9.00/ 21.00)
+   mul_aug_prob:   42.86% (  9.00/ 21.00)
+   mul_all_prob:   42.86% (  9.00/ 21.00)
+   correct_found:  42.86% (  9.00/ 21.00)
+
+ * task 'f3b10344_0': 0 candidates, correct solution not found
+   max_gen_prob:   36.36% (  8.00/ 22.00)
+   max_aug_prob:   40.91% (  9.00/ 22.00)
+   min_aug_prob:   40.91% (  9.00/ 22.00)
+   sum_aug_prob:   40.91% (  9.00/ 22.00)
+   mul_aug_prob:   40.91% (  9.00/ 22.00)
+   mul_all_prob:   40.91% (  9.00/ 22.00)
+   correct_found:  40.91% (  9.00/ 22.00)
+
+ * task 'f3cdc58f_0': 0 candidates, correct solution not found
+   max_gen_prob:   34.78% (  8.00/ 23.00)
+   max_aug_prob:   39.13% (  9.00/ 23.00)
+   min_aug_prob:   39.13% (  9.00/ 23.00)
+   sum_aug_prob:   39.13% (  9.00/ 23.00)
+   mul_aug_prob:   39.13% (  9.00/ 23.00)
+   mul_all_prob:   39.13% (  9.00/ 23.00)
+   correct_found:  39.13% (  9.00/ 23.00)
+
+ * task 'f5aa3634_0': 12 candidates, correct solution not found
+   max_gen_prob:   33.33% (  8.00/ 24.00)
+   max_aug_prob:   37.50% (  9.00/ 24.00)
+   min_aug_prob:   37.50% (  9.00/ 24.00)
+   sum_aug_prob:   37.50% (  9.00/ 24.00)
+   mul_aug_prob:   37.50% (  9.00/ 24.00)
+   mul_all_prob:   37.50% (  9.00/ 24.00)
+   correct_found:  37.50% (  9.00/ 24.00)
+
+1 task(s) failed and were skipped -- see output_evaluation_Nemo_shard3of4/failed_tasks.txt
+Score for 'output_evaluation_Nemo_shard3of4/submission.json': 9.0
+/usr/lib/python3.11/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+=== Shard 3 completed successfully ===
+Combined 100/100 tasks from 4 shards -> output_evaluation_Nemo_combined_submission.json
+Score: 24.5

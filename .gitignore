@@ -1,0 +1,17 @@
+# never commit models, adapters, caches or data
+pretrained_models/
+checkpoints/
+grpo_adapter/
+sft_adapter/
+finetuned_model/
+unsloth_compiled_cache/
+__pycache__/
+input/
+inference_cache*/
+tmp_output*/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.bak
+vram_log*.txt
